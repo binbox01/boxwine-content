@@ -1,0 +1,2837 @@
+{
+  "_meta": {
+    "source": "BoxWine 자체 정리",
+    "schema": "v5",
+    "version": 1,
+    "categories": [
+      "variety",
+      "term",
+      "region",
+      "flavorCategory",
+      "style",
+      "classification",
+      "winemaking",
+      "producer"
+    ],
+    "note": "각 항목 공통 필드: summary(1~2줄)·body(상세, 선택)·aliases·regions·flavors·meta·image(assets/content/images 아래 상대 경로)·imageCredit{source,url,license,author}. 카테고리별 의미는 화면 렌더링에서 재해석한다(예: region의 regions 필드는 '하위 지역', flavors 필드는 '주요 품종')."
+  },
+  "varieties": {
+    "카베르네 소비뇽": {
+      "summary": "풀바디 적포도의 대표. 두꺼운 껍질에서 오는 강한 탄닌과 긴 숙성력이 특징.",
+      "body": "보르도 좌안의 주력 품종. 두꺼운 껍질에서 강한 색소와 탄닌이 추출되어 풀바디·장기 숙성형 와인을 만든다. 따뜻한 신세계(나파·쿠나와라)에선 잼류 과실미가 도드라지고 보르도에선 삼나무·연필심 같은 정제된 향이 특징.\n\n메를로·카베르네 프랑과 자주 블렌딩되어 거친 면을 보완한다. 짙은 색·강한 탄닌·검은 과일 향이 3대 식별 단서.",
+      "aliases": [
+        "Cabernet Sauvignon",
+        "까베르네 소비뇽"
+      ],
+      "regions": [
+        "보르도 좌안",
+        "나파밸리",
+        "쿠나와라",
+        "마이포밸리"
+      ],
+      "flavors": [
+        "블랙커런트",
+        "삼나무",
+        "민트",
+        "연필심",
+        "흑연"
+      ],
+      "image": "varieties/cabernet_sauvignon.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_Mountain_Cabernet_Sauvignon_grapes_from_Hedge_Vineyards.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Agne27"
+      }
+    },
+    "메를로": {
+      "summary": "부드럽고 둥근 적포도. 카베르네에 비해 탄닌이 순하고 과실미가 풍부해 입문에 친절.",
+      "body": "보르도 우안(포므롤·생테밀리옹)의 스타 품종. 카베르네보다 빨리 익고 탄닌이 부드러워 어릴 때부터 마시기 좋다. 세계에서 가장 비싼 와인 중 하나인 페트뤼스가 메를로 100%다.\n\n단독으로도 훌륭하지만 보르도 블렌드에선 카베르네의 동반자로 더 흔히 만난다. 자두·체리·초콜릿이 시그니처 풍미.",
+      "aliases": [
+        "Merlot"
+      ],
+      "regions": [
+        "보르도 우안",
+        "포므롤",
+        "캘리포니아",
+        "워싱턴"
+      ],
+      "flavors": [
+        "자두",
+        "체리",
+        "초콜릿",
+        "허브"
+      ],
+      "image": "varieties/merlot.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Merlot.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Felloni claire"
+      }
+    },
+    "피노 누아": {
+      "summary": "얇은 껍질의 우아한 적포도. 색·탄닌은 가볍지만 향의 복합성과 산도가 인상적.",
+      "body": "까다로운 품종으로 유명. 얇은 껍질 탓에 기후·토양에 매우 민감해 같은 산지 안에서도 와인 차이가 크다. 부르고뉴(특히 코트 도르)가 본거지이며 신대륙에서는 오리건·뉴질랜드 센트럴오타고가 명성을 얻고 있다.\n\n색은 옅지만 향의 복합성과 우아한 산미가 매력. 샹파뉴의 블랑드누아도 피노 누아 100%다.",
+      "aliases": [
+        "Pinot Noir"
+      ],
+      "regions": [
+        "부르고뉴",
+        "오리건",
+        "센트럴오타고",
+        "샹파뉴"
+      ],
+      "flavors": [
+        "체리",
+        "라즈베리",
+        "장미",
+        "버섯",
+        "흙"
+      ],
+      "image": "varieties/pinot_noir.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Grape_near_Sancerre.jpg",
+        "license": "Public Domain",
+        "author": "Cjp24"
+      }
+    },
+    "시라": {
+      "summary": "풀바디 적포도. 신세계에서는 시라즈로 불리며 더 농밀하고 잼류 풍미가 강해짐.",
+      "body": "북부 론(에르미타주·코트로티)의 클래식 품종. 호주에서는 '시라즈'로 불리며 더 농밀하고 잼처럼 변한다. 검은 후추 향(로탄돈 성분)이 시그니처이며 그릴 고기와 잘 맞는다.\n\n비오니에를 5% 정도 섞어 향을 끌어올리는 양조 전통이 코트로티에 있다. GSM 블렌드의 S.",
+      "aliases": [
+        "Syrah",
+        "쉬라즈",
+        "Shiraz"
+      ],
+      "regions": [
+        "북부 론(에르미타주·코트로티)",
+        "바로사",
+        "워싱턴"
+      ],
+      "flavors": [
+        "검은 후추",
+        "블랙베리",
+        "올리브",
+        "베이컨",
+        "감초"
+      ],
+      "image": "varieties/syrah.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Syrah.jpg",
+        "license": "Public Domain",
+        "author": "JPS68"
+      }
+    },
+    "그르나슈": {
+      "summary": "따뜻한 기후에서 잘 자라며 알코올과 잼류 과실미가 풍부. GSM 블렌드의 G.",
+      "body": "따뜻한 기후를 좋아하는 만능 적포도. GSM(Grenache-Syrah-Mourvèdre) 블렌드의 기본이며 샤토뇌프뒤파프의 주역.\n\n알코올이 잘 오르고 산도는 낮은 편이라 단독보다 블렌드에서 진가를 발휘. 프로방스·타벨 같은 로제 와인 양조에도 많이 쓰인다.",
+      "aliases": [
+        "Grenache",
+        "Garnacha"
+      ],
+      "regions": [
+        "남부 론(샤토뇌프뒤파프)",
+        "프리오라트",
+        "리오하"
+      ],
+      "flavors": [
+        "라즈베리",
+        "딸기잼",
+        "향신료",
+        "말린 허브"
+      ],
+      "image": "varieties/grenache.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Grenache_N.jpg",
+        "license": "Public Domain",
+        "author": "Jules Troncy"
+      }
+    },
+    "산지오베제": {
+      "summary": "이탈리아 중부 대표 품종. 높은 산도와 중간 탄닌, 신맛 도는 체리 풍미.",
+      "body": "키안티·브루넬로·비노 노빌레의 단일 품종. 토스카나 흙냄새와 신맛 도는 체리가 시그니처. 키안티 클라시코의 그란 셀레지오네는 100% 산지오베제가 의무화되어 있다.\n\n토마토소스 파스타와의 페어링은 거의 교과서급. 산도가 높아 음식과의 친화력이 매우 뛰어나다.",
+      "aliases": [
+        "Sangiovese"
+      ],
+      "regions": [
+        "키안티",
+        "브루넬로 디 몬탈치노",
+        "비노 노빌레"
+      ],
+      "flavors": [
+        "사워체리",
+        "토마토잎",
+        "흙",
+        "가죽"
+      ],
+      "image": "varieties/sangiovese.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sangiovese_close_up_crop.jpg",
+        "license": "CC BY 2.0",
+        "author": "Francesco Sgroi"
+      }
+    },
+    "네비올로": {
+      "summary": "옅은 색이지만 매우 강한 탄닌과 산도. '타르와 장미'라는 표현으로 유명.",
+      "body": "피에몬테의 왕. '바롤로의 짙은 안개'에서 이름 유래(nebbia=안개). 옅은 가넷색에 속지 말고 한 모금 마시면 잇몸을 조이는 탄닌이 강타한다.\n\n최소 5~10년은 숙성 후 마시는 게 이상적. 송로버섯 향이 도는 와인은 종종 진짜 송로와 함께 서빙된다.",
+      "aliases": [
+        "Nebbiolo"
+      ],
+      "regions": [
+        "바롤로",
+        "바르바레스코",
+        "발텔리나"
+      ],
+      "flavors": [
+        "장미",
+        "체리",
+        "타르",
+        "감초",
+        "송로"
+      ],
+      "image": "varieties/nebbiolo.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Close_up_of_Nebbiolo_cluster_in_Italy.jpg",
+        "license": "CC BY 2.0",
+        "author": "Hanna"
+      }
+    },
+    "템프라니요": {
+      "summary": "스페인의 대표 적포도. 오크 숙성과 잘 어울려 바닐라·가죽 뉘앙스가 자주 등장.",
+      "body": "리오하에서는 미국산 오크 숙성으로 바닐라·딜·코코넛 향이 발현된다. 명확한 등급(크리안사 2년·레세르바 3년·그란 레세르바 5년+)으로 숙성 기간이 라벨에 표시된다.\n\n리베라 델 두에로에서는 더 농축되고 어두운 스타일. 자두·담배·가죽이 주요 풍미.",
+      "aliases": [
+        "Tempranillo"
+      ],
+      "regions": [
+        "리오하",
+        "리베라 델 두에로",
+        "토로"
+      ],
+      "flavors": [
+        "자두",
+        "담배",
+        "바닐라",
+        "가죽",
+        "딜"
+      ],
+      "image": "varieties/tempranillo.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Tempranillo_Viala_et_Vermorel.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "말벡": {
+      "summary": "보랏빛이 짙은 풀바디. 아르헨티나 멘도사에서 가장 빛나며 부드러운 탄닌과 농밀한 과실.",
+      "body": "원산지는 보르도지만 1956년 서리로 거의 멸종, 아르헨티나 멘도사에서 부활한 케이스. 안데스 고지대(800m+)의 강한 일조량으로 색·과실미가 폭발적.\n\n부드러운 탄닌으로 입문자도 즐기기 좋다. 아르헨티나 스테이크와는 1+1 페어링.",
+      "aliases": [
+        "Malbec"
+      ],
+      "regions": [
+        "멘도사",
+        "카오르"
+      ],
+      "flavors": [
+        "검은 자두",
+        "블랙베리",
+        "코코아",
+        "제비꽃"
+      ],
+      "image": "varieties/malbec.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Malbec_grapes.jpg",
+        "license": "CC BY 2.0",
+        "author": "Ian L"
+      }
+    },
+    "진판델": {
+      "summary": "고숙도·고알코올의 잼 같은 캘리포니아 적포도. 이탈리아 프리미티보와 동일 품종.",
+      "body": "캘리포니아의 '시그니처' 적포도지만 DNA상 크로아티아 츠를제낙 카슈텔란스키와 동일. 이탈리아 풀리아의 프리미티보도 같은 품종.\n\n알코올이 15%를 넘는 경우가 많고 잼·건과일·향신료 풍미가 농밀. '올드바인 진판델'은 50년 이상 묵은 나무에서 나오는 농축된 스타일.",
+      "aliases": [
+        "Zinfandel",
+        "Primitivo"
+      ],
+      "regions": [
+        "로다이",
+        "드라이크릭",
+        "풀리아(프리미티보)"
+      ],
+      "flavors": [
+        "블랙베리잼",
+        "건자두",
+        "향신료",
+        "감초"
+      ],
+      "image": "varieties/zinfandel.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Ripe_Zinfandel_grapes_in_Dry_Creek_Valley-8958.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Frank Schulenburg"
+      }
+    },
+    "카베르네 프랑": {
+      "summary": "카베르네 소비뇽의 부모 품종. 더 가볍고 허브·피망 향이 도드라짐.",
+      "body": "카베르네 소비뇽과 소비뇽 블랑의 부모. 단독으로는 루아르(쉬농·부르괴이)에서 가볍고 허브 향이 도드라지는 스타일.\n\n보르도 우안에서는 메를로의 보완 품종(샤토 슈발블랑은 카베르네 프랑 비중이 높다). 피망·연필심 향이 식별 단서.",
+      "aliases": [
+        "Cabernet Franc"
+      ],
+      "regions": [
+        "루아르(쉬농·부르괴이)",
+        "보르도 우안 블렌드"
+      ],
+      "flavors": [
+        "라즈베리",
+        "피망",
+        "연필심",
+        "허브"
+      ],
+      "image": "varieties/cabernet_franc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cabernet-franc.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "가메": {
+      "summary": "보졸레의 대표 품종. 탄소침지법으로 가볍고 신선한 과실 향을 강조.",
+      "body": "보졸레의 단일 품종. 탄소침지법(carbonic maceration)으로 양조되어 신선한 과실과 약간의 바나나·풍선껌 향이 나는 게 특징.\n\n가장 유명한 보졸레 누보는 매년 11월 셋째 주 목요일 출시되는 햇와인. 보졸레 크뤼(모르공·플레리 등)는 훨씬 묵직한 진지한 와인.",
+      "aliases": [
+        "Gamay"
+      ],
+      "regions": [
+        "보졸레(크뤼: 모르공·플레리 등)"
+      ],
+      "flavors": [
+        "체리",
+        "딸기",
+        "바나나",
+        "제비꽃"
+      ],
+      "image": "varieties/gamay.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gamay.jpg",
+        "license": "Public Domain",
+        "author": "Viking59"
+      }
+    },
+    "무르베드르": {
+      "summary": "따뜻한 기후의 늦익는 품종. 야생적·향신료 풍미와 견고한 탄닌. GSM의 M.",
+      "body": "늦익는 더운 기후 품종. GSM 블렌드의 M. 단독으로는 프랑스 방돌이 최고, 스페인에서는 모나스트렐로 불리며 후미야·예클라가 산지.\n\n야생적이고 가죽·후추 풍미. 어릴 때는 탄닌이 거칠고 시간이 갈수록 우아해진다.",
+      "aliases": [
+        "Mourvèdre",
+        "Monastrell"
+      ],
+      "regions": [
+        "방돌",
+        "남부 론",
+        "후미야"
+      ],
+      "flavors": [
+        "블랙베리",
+        "후추",
+        "가죽",
+        "야생 허브"
+      ],
+      "image": "varieties/mourvedre.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Balzac_noir-mourvedre.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Pancrat"
+      }
+    },
+    "바르베라": {
+      "summary": "탄닌은 낮지만 산도가 매우 높은 이탈리아 품종. 가벼운 음식과 친화적.",
+      "body": "피에몬테에서 네비올로·돌체토와 함께 3대 적포도. 알바·아스티가 주산지.\n\n탄닌은 낮고 산도가 매우 높아 음식과의 친화력이 뛰어남. 토마토소스 요리와는 환상의 조합.",
+      "aliases": [
+        "Barbera"
+      ],
+      "regions": [
+        "아스티",
+        "알바",
+        "몬페라토"
+      ],
+      "flavors": [
+        "사워체리",
+        "자두",
+        "감초"
+      ],
+      "image": "varieties/barbera.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Barbera_cluster.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Agne27"
+      }
+    },
+    "카르메네르": {
+      "summary": "보르도에서 사라졌다가 칠레에서 부활. 메를로와 자주 혼동되며 피망 향이 단서.",
+      "body": "보르도에서 1867년 필록세라로 멸종한 줄 알았으나 1994년 칠레의 '메를로' 밭에서 재발견. 칠레의 시그니처 품종이 됨.\n\n피망 향과 약한 떫은맛이 메를로와 구분되는 특징. 자두·초콜릿이 동반된다.",
+      "aliases": [
+        "Carménère"
+      ],
+      "regions": [
+        "콜차구아",
+        "마이포",
+        "라펠"
+      ],
+      "flavors": [
+        "자두",
+        "초록 피망",
+        "초콜릿",
+        "향신료"
+      ],
+      "image": "varieties/carmenere.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:CarmenereW.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Lebowskyclone"
+      }
+    },
+    "프티 베르도": {
+      "summary": "보르도 블렌딩용. 짙은 색, 보라색, 견고한 탄닌을 더하는 조연.",
+      "body": "보르도 좌안 블렌드의 조연(보통 1~5%). 늦익기 때문에 따뜻한 해에만 잘 익음.\n\n색·탄닌·향신료를 더하는 '조미료' 역할. 호주·캘리포니아에서는 단독 와인도 늘고 있다.",
+      "aliases": [
+        "Petit Verdot"
+      ],
+      "regions": [
+        "보르도 좌안 블렌드",
+        "캘리포니아"
+      ],
+      "flavors": [
+        "블랙베리",
+        "제비꽃",
+        "정향",
+        "검은 후추"
+      ],
+      "image": "varieties/petit_verdot.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:01_Petit_verdot.jpg",
+        "license": "CC BY 2.0",
+        "author": "Eric 先魅 Hwang"
+      }
+    },
+    "샤르도네": {
+      "summary": "백포도의 여왕. 산지·양조 방식에 따라 라이트(샤블리)부터 풍성한 오크(캘리포니아)까지 스펙트럼이 가장 넓음.",
+      "body": "가장 변신술이 뛰어난 화이트. 샤블리(차갑고 미네랄)부터 캘리포니아(오크·버터)까지 같은 품종에서 극과 극 와인이 나온다.\n\n샹파뉴 블랑드블랑은 샤르도네 100%. 양조 선택(말로락틱 발효·오크·쉬르리)에 따라 스타일이 결정된다.",
+      "aliases": [
+        "Chardonnay"
+      ],
+      "regions": [
+        "부르고뉴(샤블리·뫼르소)",
+        "샹파뉴",
+        "캘리포니아",
+        "마가렛리버"
+      ],
+      "flavors": [
+        "사과",
+        "레몬",
+        "버터",
+        "토스트",
+        "미네랄"
+      ],
+      "image": "varieties/chardonnay.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chardonnay.jpg",
+        "license": "Public Domain",
+        "author": "Jenavive"
+      }
+    },
+    "소비뇽 블랑": {
+      "summary": "산도가 높고 향이 또렷한 화이트. 풀잎·자몽 같은 청량한 향이 시그니처.",
+      "body": "풀잎·자몽·고양이 오줌(긍정적 향 표현)이 시그니처. 메톡시피라진이라는 성분 때문.\n\n차갑게 서빙해 산도와 신선함을 즐기는 게 정석. 산세르(우아함)·말보로(폭발적 과실)·보르도(세미용 블렌딩) 세 스타일이 대표적.",
+      "aliases": [
+        "Sauvignon Blanc"
+      ],
+      "regions": [
+        "루아르(상세르·푸이퓌메)",
+        "말보로",
+        "보르도 화이트"
+      ],
+      "flavors": [
+        "자몽",
+        "풀",
+        "구스베리",
+        "라임",
+        "패션프루트"
+      ],
+      "image": "varieties/sauvignon_blanc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sauvignon_blanc_grapes.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Nathan"
+      }
+    },
+    "리슬링": {
+      "summary": "독일 대표 청포도. 사과·라임·페트롤. 드라이부터 스위트까지 단맛 폭이 넓음.",
+      "body": "향의 강도와 산도로 백포도 중 최고급으로 평가. 독일의 명확한 등급(카비네트·슈페트레제·아우슬레제 등)으로 단맛 표현.\n\n숙성 시 발현되는 '페트롤(석유)' 향은 독특하고 매력적. 매운 한식·태국 음식과는 환상의 페어링.",
+      "aliases": [
+        "Riesling"
+      ],
+      "regions": [
+        "모젤",
+        "라인가우",
+        "알자스",
+        "클레어밸리"
+      ],
+      "flavors": [
+        "사과",
+        "라임",
+        "꿀",
+        "페트롤",
+        "흰꽃"
+      ],
+      "image": "varieties/riesling.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Riesling_grapes_leaves.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "T.o.m."
+      }
+    },
+    "피노 그리지오": {
+      "summary": "가볍고 깔끔. 알자스에서는 '피노 그리'로 더 농밀한 스타일.",
+      "body": "같은 품종이라도 '피노 그리'(알자스)는 농밀하고 '피노 그리지오'(이탈리아)는 가볍고 깔끔.\n\n부담 없이 마시기 좋은 식전주 스타일이 대중적. 회·해산물과 무난.",
+      "aliases": [
+        "Pinot Grigio",
+        "Pinot Gris"
+      ],
+      "regions": [
+        "이탈리아 북부",
+        "알자스",
+        "오리건"
+      ],
+      "flavors": [
+        "사과",
+        "배",
+        "레몬",
+        "미네랄"
+      ],
+      "image": "varieties/pinot_grigio.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pinot_Grigio-20201027-RM-114053.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Ermell"
+      }
+    },
+    "게뷔르츠트라미너": {
+      "summary": "알자스 시그니처. 리치·장미·생강이 강렬해 한 모금만 마셔도 식별 가능.",
+      "body": "알자스의 시그니처. 리치·장미·생강이 강렬해 한 모금만 마셔도 식별 가능.\n\n산도는 낮고 알코올은 높은 편. 매운 음식·아시안 푸드와 의외로 잘 맞으며 디저트 와인으로도 양조된다.",
+      "aliases": [
+        "Gewürztraminer"
+      ],
+      "regions": [
+        "알자스",
+        "독일",
+        "이탈리아 알토 아디제"
+      ],
+      "flavors": [
+        "리치",
+        "장미",
+        "생강",
+        "향신료"
+      ],
+      "image": "varieties/gewurztraminer.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gewürztramine_Viala_et_Vermorelr.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "모스카토": {
+      "summary": "머스캣 계열. 향이 화려하고 단맛·약발포 스타일(모스카토 다스티)이 유명.",
+      "body": "향이 가장 화려한 품종군. 모스카토 다스티는 알코올 5.5%의 약발포·약달콤 와인으로 디저트와 잘 맞는다.\n\n한 잔으로 식사를 시작해도 좋고 끝내도 좋다.",
+      "aliases": [
+        "Moscato",
+        "Muscat"
+      ],
+      "regions": [
+        "피에몬테(아스티)",
+        "남프랑스",
+        "스페인"
+      ],
+      "flavors": [
+        "오렌지꽃",
+        "복숭아",
+        "포도",
+        "꿀"
+      ],
+      "image": "varieties/muscat.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Muscat_blanc_et_Muscat_noir_by_JM_Rosier.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Jean-Marc Rosier"
+      }
+    },
+    "비오니에": {
+      "summary": "농밀한 부케와 낮은 산도의 풀바디 화이트. 시라와 함께 양조되기도.",
+      "body": "1960년대 거의 멸종 직전까지 갔다가 콩드리외에서 부활. 살구·복숭아·꿀의 농밀한 부케.\n\n산도가 낮아 단독 음용보다 식사와 함께. 시라와 공동 양조(코트로티)는 향을 끌어올리는 효과.",
+      "aliases": [
+        "Viognier"
+      ],
+      "regions": [
+        "콩드리외",
+        "샤토 그리예",
+        "캘리포니아"
+      ],
+      "flavors": [
+        "살구",
+        "복숭아",
+        "흰꽃",
+        "꿀"
+      ],
+      "image": "varieties/viognier.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Viognier_Viala_et_Vermorel.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "세미용": {
+      "summary": "단독으로는 둥근 화이트, 보르도에서는 소비뇽 블랑과 블렌드. 귀부 디저트 와인의 주역.",
+      "body": "단독으로는 둥근 화이트지만 진가는 두 곳에서 발현된다. 보르도 소테른의 귀부 와인(보트리티스 곰팡이로 농축)과 호주 헌터밸리의 장기 숙성 드라이 화이트.\n\n숙성하면 꿀·왁스·토스트 풍미가 발달.",
+      "aliases": [
+        "Sémillon",
+        "Semillon"
+      ],
+      "regions": [
+        "보르도(소테른·그라브)",
+        "헌터밸리"
+      ],
+      "flavors": [
+        "무화과",
+        "꿀",
+        "왁스",
+        "레몬커드"
+      ],
+      "image": "varieties/semillon.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gros_Semillon.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "슈냉 블랑": {
+      "summary": "루아르 대표. 산도 보존력이 좋아 드라이·스파클링·디저트 전 스타일 가능.",
+      "body": "산도 보존력이 뛰어나 드라이·세미스위트·디저트·스파클링까지 한 품종으로 전 스타일 가능. 루아르의 부브레가 대표.\n\n남아공이 신대륙 1위 산지이며 가성비 좋은 와인이 많다.",
+      "aliases": [
+        "Chenin Blanc"
+      ],
+      "regions": [
+        "루아르(부브레·사브니에르)",
+        "남아공"
+      ],
+      "flavors": [
+        "사과",
+        "꿀",
+        "카모마일",
+        "양털"
+      ],
+      "image": "varieties/chenin_blanc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Rochecorbon_-_Vignoble_-_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Benjamin Smith"
+      }
+    },
+    "알바리뇨": {
+      "summary": "갈리시아 대표 청포도. 짠 미네랄과 시트러스가 해산물과 절묘.",
+      "body": "스페인 갈리시아 리아스 바이샤스에서 해산물과 함께 마시는 가장 자연스러운 짝. 짠 미네랄과 시트러스가 특징.\n\n포르투갈에서는 알바리뉴라 불리며 비뉴 베르드의 주요 품종.",
+      "aliases": [
+        "Albariño",
+        "Alvarinho"
+      ],
+      "regions": [
+        "리아스 바이샤스",
+        "비뉴 베르드"
+      ],
+      "flavors": [
+        "복숭아",
+        "라임",
+        "바닷바람",
+        "미네랄"
+      ],
+      "image": "varieties/albarino.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cacho.JPG",
+        "license": "Public Domain",
+        "author": "Miguel Queimado"
+      }
+    },
+    "그뤼너 펠트리너": {
+      "summary": "오스트리아 시그니처. 흰 후추 같은 미묘한 향신료가 특징.",
+      "body": "오스트리아의 자존심. 흰 후추 같은 미묘한 향신료(rotundone 성분)가 시그니처.\n\n음식 친화력이 매우 높아 아스파라거스 같은 까다로운 식재료와도 잘 맞는다.",
+      "aliases": [
+        "Grüner Veltliner"
+      ],
+      "regions": [
+        "바하우",
+        "캄프탈",
+        "크렘스탈"
+      ],
+      "flavors": [
+        "청사과",
+        "흰 후추",
+        "허브",
+        "미네랄"
+      ],
+      "image": "varieties/gruner_veltliner.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gruener_Veltliner_Weinsberg_20060909.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Rosenzweig"
+      }
+    },
+    "글레라": {
+      "summary": "프로세코의 핵심 청포도. 가볍고 청량한 사과·배·꽃향.",
+      "body": "이탈리아 베네토 지역 프로세코의 주요 품종. 샤르마 방식(탱크내 2차 발효)으로 양조해 신선함과 과실미를 보존한다.\n\n알코올이 낮고(10~11%) 산도가 적당해 식전·캐주얼 음용에 적합. 2009년 이전엔 품종명도 '프로세코'였으나 산지 보호를 위해 '글레라'로 개명.",
+      "aliases": [
+        "Glera",
+        "Prosecco"
+      ],
+      "regions": [
+        "베네토(코넬리아노·발도비아데네)",
+        "프리울리"
+      ],
+      "flavors": [
+        "사과",
+        "배",
+        "흰꽃",
+        "감귤"
+      ],
+      "image": "varieties/glera.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Glera.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Biekko"
+      }
+    },
+    "코르테제": {
+      "summary": "피에몬테 가비(Gavi)의 단일 품종 화이트.",
+      "body": "산도가 높고 미네랄·시트러스 풍미. 해산물·생선 요리와 환상의 짝.\n\n주산지 가비(Gavi)는 피에몬테 남부 알레산드리아 지방. 같은 피에몬테 안에서도 네비올로·바르베라가 주도하는 산지와 캐릭터가 완전히 다르다.",
+      "aliases": [
+        "Cortese"
+      ],
+      "regions": [
+        "가비(Gavi)",
+        "콜리 토르토네지"
+      ],
+      "flavors": [
+        "레몬",
+        "그린애플",
+        "미네랄",
+        "흰꽃"
+      ],
+      "image": "varieties/cortese.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gavi_DOCG_wines.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Jonathan Harker"
+      }
+    },
+    "마카베오": {
+      "summary": "카바(스페인 스파클링)의 주요 청포도. 가벼운 사과·꽃향.",
+      "body": "카바 블렌드에서 가장 큰 비중을 차지하는 베이스 품종. 자렐로·파렐야다와 함께 카바 3대 품종으로 불린다.\n\n리오하에서는 'Viura(비우라)'라는 이름으로 화이트 와인 양조에도 쓰인다.",
+      "aliases": [
+        "Macabeu",
+        "Viura"
+      ],
+      "regions": [
+        "페네데스(카바)",
+        "리오하"
+      ],
+      "flavors": [
+        "사과",
+        "꽃향",
+        "감귤"
+      ],
+      "image": "varieties/macabeo.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Maccabeo_blanc.jpg",
+        "license": "Public Domain",
+        "author": "Viala et Vermorel"
+      }
+    },
+    "자렐로": {
+      "summary": "카바 블렌드의 구조 담당. 페놀이 풍부해 산화 저항성 좋음.",
+      "body": "마카베오에 골격과 깊이를 더하는 핵심 품종. 단독 화이트로도 양조되며 짭짤한 미네랄과 견과류 뉘앙스가 특징.\n\n카탈루냐 페네데스가 본거지. 카바의 장기 숙성 큐베에서 진가가 드러난다.",
+      "aliases": [
+        "Xarel·lo",
+        "Xarello"
+      ],
+      "regions": [
+        "페네데스"
+      ],
+      "flavors": [
+        "견과류",
+        "미네랄",
+        "허브",
+        "흰꽃"
+      ],
+      "image": "varieties/xarello.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Xarel_lo_Cava_grapes.jpg",
+        "license": "CC BY 2.0",
+        "author": "batega"
+      }
+    },
+    "파렐야다": {
+      "summary": "카바의 세 번째 품종. 가장 가볍고 산도 높아 마무리 담당.",
+      "body": "고도가 높은 곳에서 잘 자라 산도와 신선함을 카바 블렌드에 더한다. 알코올이 낮고 향이 섬세해 단독 와인보다는 블렌드에 적합.\n\n페네데스 외에 코스테르 델 세그레에서도 재배.",
+      "aliases": [
+        "Parellada"
+      ],
+      "regions": [
+        "페네데스",
+        "코스테르 델 세그레"
+      ],
+      "flavors": [
+        "감귤",
+        "흰꽃",
+        "라이트 그린애플"
+      ],
+      "image": "varieties/parellada.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:St._Sadurni_d'Anoia_-_white_grapes.jpg",
+        "license": "CC BY 2.0",
+        "author": "Justus Hayes"
+      }
+    },
+    "투리가 나시오날": {
+      "summary": "포르투갈을 대표하는 적포도. 포트와인 블렌드와 두로의 스타.",
+      "body": "두꺼운 껍질에서 오는 강렬한 색·탄닌·향. 짙은 검은 과일에 제비꽃·유칼립투스 같은 독특한 향이 시그니처.\n\n포트와인 5대 권장 품종 중 으뜸이며 두로(Douro) 적포도 와인의 단독·주도 블렌드 모두 늘고 있다.",
+      "aliases": [
+        "Touriga Nacional"
+      ],
+      "regions": [
+        "두로",
+        "당",
+        "알렌테주"
+      ],
+      "flavors": [
+        "블랙베리",
+        "제비꽃",
+        "유칼립투스",
+        "감초",
+        "초콜릿"
+      ],
+      "image": "varieties/touriga_nacional.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Touriga_Nacional.jpg",
+        "license": "CC BY 3.0",
+        "author": "Wines of Portugal / Marie-Luise Bächle"
+      }
+    },
+    "피노타지": {
+      "summary": "남아공 고유 적포도(피노 누아 × 생소). 스모키·잼·바나나 향이 시그니처.",
+      "body": "1925년 스텔렌보쉬 대학에서 교배해 만든 남아공의 자랑이자 골칫거리(양조 잘못하면 고무·아세톤 결함이 도드라짐).\n\n잘 만든 피노타지는 풀바디에 훈제 베이컨·블랙체리·바나나·커피 풍미가 어우러진다.",
+      "aliases": [
+        "Pinotage"
+      ],
+      "regions": [
+        "스텔렌보쉬",
+        "팔",
+        "스와르틀란드"
+      ],
+      "flavors": [
+        "블랙체리",
+        "훈제",
+        "바나나",
+        "커피",
+        "타르"
+      ],
+      "image": "varieties/pinotage.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pinotage_massai.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Yozh"
+      }
+    }
+  },
+  "terms": {
+    "탄닌": {
+      "summary": "포도 껍질·씨·줄기, 그리고 오크통에서 추출되는 떫은 성분.",
+      "body": "입안을 조이는 느낌(껍질이 잡힌 듯한 느낌)으로 인식된다. 강한 와인은 숙성하며 부드러워지므로 어린 탄닌이 강한 와인은 디캔팅하거나 묵혀 마신다.\n\n단백질(고기·치즈)과 잘 결합해 부드럽게 느껴진다. 그래서 카베르네 소비뇽 같은 강한 탄닌 와인은 스테이크와 잘 맞는다.",
+      "aliases": [
+        "Tannin"
+      ]
+    },
+    "산도": {
+      "summary": "와인의 신맛. 침이 고이게 만드는 성분.",
+      "body": "산도가 높으면 음식과의 친화력이 좋아지고 숙성 잠재력도 커진다. 차갑게 마시면 산도가 더 도드라지고 따뜻하면 둔해진다.\n\n산도가 약한 와인은 '플랫(flat)'하다고 표현. 화이트는 산도가 거의 모든 평가의 중심.",
+      "aliases": [
+        "Acidity"
+      ]
+    },
+    "바디": {
+      "summary": "입안에서 느껴지는 무게감·점도. 알코올과 잔당이 주된 요인.",
+      "body": "우유(라이트)·생수(라이트) vs 두유(미디엄) vs 크림(풀)의 비유로 설명한다. 알코올이 높을수록, 잔당이 많을수록, 추출이 깊을수록 풀바디.\n\n와인 색깔과 직접 관련은 없다(짙은 피노 누아도 라이트바디).",
+      "aliases": [
+        "Body"
+      ]
+    },
+    "단맛(드라이/스위트)": {
+      "summary": "발효되지 않고 남은 잔당이 만드는 단맛. 드라이=안 달다.",
+      "body": "잔당(residual sugar)이 만드는 단맛. 드라이(4g/L 이하)·오프드라이·세미스위트·스위트 순으로 증가.\n\n'드라이=시다'가 아니라 '안 달다'는 뜻. 사과주가 시지만 드라이일 수 있고, 모스카토는 산도가 있어도 스위트다.",
+      "aliases": [
+        "Dryness",
+        "Sweetness",
+        "Residual Sugar"
+      ]
+    },
+    "피니시": {
+      "summary": "와인을 삼킨 후 입안에 남는 풍미와 그 지속 시간.",
+      "body": "좋은 와인은 피니시가 길고 복합적이며 일관된다. '롱 피니시(20초+)'는 품질의 신호.\n\n알코올의 화끈한 잔여만 남는 건 '핫(hot)' 피니시라 부정적. 음식과 함께 마실 때는 피니시가 짧은 게 오히려 편할 수도 있다.",
+      "aliases": [
+        "Finish",
+        "여운"
+      ]
+    },
+    "아로마/부케": {
+      "summary": "아로마는 포도에서 오는 1차/2차 향, 부케는 숙성으로 발달하는 3차 향.",
+      "body": "아로마는 포도 자체에서 오는 1차/2차 향(과일·꽃), 부케는 숙성으로 발달하는 3차 향(가죽·트러플·견과류).\n\n어린 와인은 아로마가 지배적, 오래된 와인은 부케가 풍부. 둘을 합쳐 '노즈(nose)'라 부르기도 한다.",
+      "aliases": [
+        "Aroma",
+        "Bouquet"
+      ]
+    },
+    "디캔팅": {
+      "summary": "와인을 디캔터에 옮겨 공기와 접촉시키는 과정.",
+      "body": "두 가지 목적이 있다. (1) 오래된 와인의 침전물 분리 (2) 어린 와인에 산소를 공급해 향을 열어주기.\n\n어린 풀바디 와인은 30분~2시간 정도가 적당. 섬세한 노년 와인은 오히려 디캔팅이 향을 날려버릴 수 있어 주의.",
+      "aliases": [
+        "Decanting"
+      ],
+      "image": "terms/decanter.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Decanter_and_Stopper_LACMA_56.35.30a-b.jpg",
+        "license": "Public Domain",
+        "author": "Fæ (LACMA)"
+      }
+    },
+    "빈티지": {
+      "summary": "와인이 만들어진 포도의 수확 연도.",
+      "body": "같은 와이너리도 작황에 따라 해마다 품질이 달라진다. '빈티지 차트'로 특정 산지·연도의 평가를 참고할 수 있다.\n\nNV(Non-Vintage)는 여러 해를 블렌딩한 와인(샹파뉴에 흔함). 일관된 스타일 유지가 목적. 프랑스어로는 빈티지를 '밀레짐(Millésime)'이라 부른다.",
+      "aliases": [
+        "Vintage",
+        "Millésime",
+        "밀레짐"
+      ]
+    },
+    "밀레짐": {
+      "summary": "빈티지를 뜻하는 프랑스어. 라벨에 찍힌 포도 수확 연도.",
+      "body": "밀레짐(Millésime)은 영어 '빈티지'에 해당하는 프랑스어로, 원래 '연도를 나타내는 숫자'라는 뜻이다. 그 해의 날씨(일조·강수·기온)에 따라 포도 품질이 달라지므로, 작황이 뛰어났던 해를 흔히 '그레이트 빈티지'라 부른다.\n\n특히 샴페인에서 자주 쓰인다. 한 해 수확 포도만으로, 작황이 특별히 좋은 해에만 만드는 것이 '밀레짐 샴페인(Vintage Champagne)'이다. 반대로 여러 해를 블렌딩해 일정한 맛을 유지하는 대다수 샴페인은 '논 밀레짐(NV)'이다.\n\n요약하면 라벨에 연도가 찍혀 있으면 밀레짐(빈티지) 와인, 연도가 없으면 여러 해를 섞은 NV 와인이다.",
+      "aliases": [
+        "Millésime",
+        "Millesime",
+        "밀레지메",
+        "Vintage"
+      ],
+      "image": "terms/millesime.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Dom_Perignon_1999.jpg",
+        "license": "Public Domain",
+        "author": "PlatinumSunlight"
+      }
+    },
+    "ABV": {
+      "summary": "Alcohol By Volume — 부피 기준 알코올 도수. 와인은 보통 12~15%.",
+      "body": "와인은 보통 12~15%. 모스카토 다스티는 5.5%, 일부 진판델은 15%+까지 다양.\n\n라벨 의무 표기 항목이며 표기 대비 ±0.5% 오차가 허용된다. 14% 이상이면 '풀바디 + 핫'한 느낌이 강해진다.",
+      "aliases": [
+        "Alcohol By Volume",
+        "도수"
+      ]
+    },
+    "미네랄리티": {
+      "summary": "'돌·부싯돌·바닷물' 같은 비과일 풍미의 통칭.",
+      "body": "공식 학술 용어는 아니지만 와인 묘사에 흔히 쓰인다. 샤블리·산세르·리슬링·알바리뇨 등에서 자주 언급된다.\n\n토양의 미네랄이 직접 와인에 들어간다는 통설은 과학적으로 입증된 바 없으나, 그 풍미가 분명히 인지되는 건 사실이다.",
+      "aliases": [
+        "Minerality"
+      ]
+    },
+    "말로락틱 발효": {
+      "summary": "알코올 발효 후 일어나는 2차 발효. 사과산을 젖산으로 변환.",
+      "body": "사과산(말산)을 더 부드러운 젖산으로 변환. 결과적으로 산도는 낮아지고 입감이 부드러워지며 버터 풍미(다이아세틸)가 생긴다.\n\n거의 모든 레드와 풀바디 화이트(샤르도네)에 적용되지만 산세르·리슬링 같은 청량한 화이트는 의도적으로 막는다.",
+      "aliases": [
+        "MLF",
+        "Malolactic Fermentation"
+      ]
+    },
+    "오크 숙성": {
+      "summary": "오크통에서 와인을 숙성하는 과정. 부드러움·복합미·향신료 추가.",
+      "body": "미세한 산소 노출로 와인이 부드러워지고 통의 토스트 정도·새통/헌통에 따라 바닐라·코코넛·정향·연기 풍미가 추가된다.\n\n새 프렌치 오크가 가장 비싸고 미국 오크는 코코넛·딜 향이 더 강하다. '오크가 과한' 와인은 비판의 대상이 되기도 한다.",
+      "aliases": [
+        "Oak Aging"
+      ],
+      "image": "terms/oak_aging.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wine_Barrels.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Sanjay Acharya"
+      }
+    },
+    "떼루아": {
+      "summary": "와인 풍미에 영향을 주는 모든 자연·인문 환경의 총체.",
+      "body": "토양·기후·고도·지형·일조·바람·인근 식생, 그리고 그 지역 전통 양조법까지 포함하는 프랑스어 개념. 와인이 '어디서 왔는지'를 설명하는 가장 큰 우산.\n\n부르고뉴는 떼루아 개념의 발상지이자 가장 정교한 적용지 — 같은 마을 안에서 밭(climat) 단위로 와인이 갈린다.",
+      "aliases": [
+        "Terroir"
+      ],
+      "image": "terms/terroir.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vineyards_in_Burgundy_France.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "FrogsLegs71"
+      }
+    },
+    "코르키(TCA)": {
+      "summary": "코르크 마감에서 와인으로 옮겨오는 결함. 젖은 종이상자·곰팡이 냄새.",
+      "body": "2,4,6-트리클로로아니솔(TCA)이라는 화합물이 원인. 코르크에 곰팡이가 침투했거나 살균 과정에서 생긴다. 약 1~3%의 코르크 마감 와인에서 발생.\n\n향이 가려져 와인의 과실미가 사라진 듯한 '밋밋함'이 단서. 의심되면 와이너리/매장에 교환 요청 가능. 스크류캡은 TCA 위험이 없다.",
+      "aliases": [
+        "Cork Taint",
+        "TCA"
+      ],
+      "image": "terms/cork_taint.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cork.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Grapebowl"
+      }
+    },
+    "퀴베": {
+      "summary": "양조 탱크의 특정 분량 또는 와이너리의 시그니처 블렌드.",
+      "body": "원래는 큰 탱크(cuve) 단위에서 나온 와인을 가리키지만, 라벨에서는 '특별 큐베'처럼 시그니처 와인을 지칭한다.\n\n샹파뉴에서는 첫 압착즙의 가장 좋은 부분(2,050리터)을 특별히 'cuvée'라고 부른다. 두 번째 압착즙은 'taille'.",
+      "aliases": [
+        "Cuvée",
+        "Cuvee"
+      ],
+      "image": "terms/cuvee.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cuvee.jpg",
+        "license": "Public Domain",
+        "author": "CFang"
+      }
+    },
+    "눈물(다리)": {
+      "summary": "잔을 돌렸을 때 안쪽 벽에 흘러내리는 줄기. Legs / Tears of wine.",
+      "body": "알코올과 물의 표면장력 차이(마랑고니 효과)로 생긴다. 알코올·잔당이 높을수록 두껍게 천천히 흐른다.\n\n품질의 직접 지표는 아니지만 와인의 농도·바디를 가늠하는 보조 단서. 풀바디 진판델·디저트 와인의 다리는 굵고 느림.",
+      "aliases": [
+        "Legs",
+        "Tears of wine"
+      ],
+      "image": "terms/wine_legs.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wine_legs_shadow.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "FlagSteward"
+      }
+    },
+    "마리아주(페어링)": {
+      "summary": "와인과 음식의 결합. 기본 원칙은 같은 산지·같은 무게감·보완 혹은 대비.",
+      "body": "고전적 규칙: (1) 와인 산지의 전통 음식과 그 지역 와인 (2) 무게감 매칭 — 가벼운 음식엔 가벼운 와인 (3) 보완(달콤 디저트 + 스위트 와인) 또는 대비(짠 치즈 + 단 포트).\n\n탄닌×지방·산도×기름·당도×매운맛이 자주 인용되는 페어링 공식. 한국에선 마리아주라는 표현이 자주 쓰임.",
+      "aliases": [
+        "Food Pairing",
+        "Mariage"
+      ],
+      "image": "terms/wine_pairing.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vin_Jaune.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Arnaud 25"
+      }
+    },
+    "샴페인 생산자 코드": {
+      "summary": "샴페인 라벨 하단의 작은 두 글자 코드. 누가 만들었는지(재배·양조 주체)를 나타낸다.",
+      "body": "번호 앞 두 글자로 확인한다. NM(Négociant Manipulant) — 포도를 사서 만드는 대형 하우스(모엣·뵈브 클리코 등 대부분). RM(Récoltant Manipulant) — 자기 밭 포도로 직접 만드는 재배자 샴페인('그로워 샴페인'). CM(Coopérative de Manipulation) — 협동조합이 양조. RC(Récoltant Coopérateur) — 조합이 만든 것을 재배자 이름으로 판매.\n\nSR(Société de Récoltants) — 재배자 가족 조합. ND(Négociant Distributeur) — 완성 와인을 사서 라벨만. MA(Marque d'Acheteur) — 구매자 상표(마트 PB 등). RM(그로워)은 떼루아 개성을, NM은 하우스 스타일의 일관성을 중시하는 경향.",
+      "aliases": [
+        "NM",
+        "RM",
+        "CM",
+        "RC",
+        "SR",
+        "ND",
+        "MA",
+        "Négociant Manipulant",
+        "Récoltant Manipulant",
+        "Grower Champagne",
+        "그로워 샴페인",
+        "샴페인 코드"
+      ]
+    }
+  },
+  "regions": {
+    "보르도": {
+      "summary": "지롱드강 좌·우안으로 나뉘는 세계에서 가장 영향력 있는 와인 산지.",
+      "body": "프랑스 남서부, 지롱드강을 끼고 좌안(메독·그라브)과 우안(생테밀리옹·포므롤)으로 나뉜다. 좌안은 카베르네 소비뇽 주도, 우안은 메를로 주도.\n\n1855년 메독 등급제가 유명하며 5등급으로 5대 1등급 샤토(라피트·라투르·마고·오브리옹·무통)가 분류된다. 블렌딩 전통으로 인해 단일 품종 와인은 거의 없다.",
+      "aliases": [
+        "Bordeaux"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "해양성·온화"
+      },
+      "regions": [
+        "메독",
+        "포이약",
+        "포므롤",
+        "생테밀리옹",
+        "그라브"
+      ],
+      "flavors": [
+        "카베르네 소비뇽",
+        "메를로",
+        "카베르네 프랑"
+      ],
+      "image": "regions/bordeaux.png",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Weinbaugebiete-frankreich-bordeaux.png",
+        "license": "CC BY-SA 3.0",
+        "author": "Domenico-de-ga"
+      }
+    },
+    "부르고뉴": {
+      "summary": "단일 품종·단일 떼루아 중심의 산지. 같은 마을에서도 밭에 따라 와인 차이가 크다.",
+      "body": "단일 품종(피노 누아 또는 샤르도네)에 단일 떼루아 중심의 산지. 같은 마을 안에서도 미세한 떼루아(climat) 차이로 가격이 10배 이상 벌어진다.\n\n그랑크뤼·프르미에크뤼·빌라주·레지오날 4단계 등급. 도멘(생산자)의 자존심이 가장 강한 산지로, 같은 이름의 밭이 여러 도멘에 분할 소유되어 있다.",
+      "aliases": [
+        "Burgundy",
+        "Bourgogne"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "대륙성·서늘"
+      },
+      "regions": [
+        "코트 도르",
+        "샤블리",
+        "코트 샬로네즈",
+        "마코네"
+      ],
+      "flavors": [
+        "피노 누아",
+        "샤르도네"
+      ],
+      "image": "regions/burgundy.png",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vignobles_bourgogne-fr.svg",
+        "license": "CC BY-SA 4.0",
+        "author": "DalGobboM"
+      }
+    },
+    "샹파뉴": {
+      "summary": "스파클링 와인의 최고봉. 트라디시오넬(병내 2차 발효) 방식.",
+      "body": "AOC 규정상 '샹파뉴' 명칭은 이 지역에서 트라디시오넬(병내 2차 발효) 방식으로 만든 것만 사용 가능.\n\n블랑드블랑(샤르도네 100%)·블랑드누아(피노 누아/뮈니에 100%)·로제 등 스타일 다양. NV 큐베가 메인이며 빈티지 큐베는 최고 작황 해에만 출시된다.",
+      "aliases": [
+        "Champagne"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "대륙성·한랭"
+      },
+      "regions": [
+        "몽타뉴 드 랭스",
+        "발레 드 라 마른",
+        "코트 데 블랑"
+      ],
+      "flavors": [
+        "샤르도네",
+        "피노 누아",
+        "피노 뮈니에"
+      ],
+      "image": "regions/champagne.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Glass_of_champagne.jpg",
+        "license": "CC BY 2.0",
+        "author": "bgvjpe"
+      }
+    },
+    "론": {
+      "summary": "북부 론(시라 단일)과 남부 론(GSM 블렌드)이 완전히 다른 권역.",
+      "body": "남북으로 길게 뻗은 산지. 북부 론과 남부 론이 완전히 다른 와인 권역. 북부는 에르미타주·코트로티·콩드리외(비오니에 화이트), 남부는 샤토뇌프뒤파프(13개 품종 허용)·지공다스.\n\n남부가 양적으로 압도적. 따뜻한 기후로 잼류 과실미가 강하다.",
+      "aliases": [
+        "Rhône",
+        "Rhone"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "북부 대륙성 · 남부 지중해성"
+      },
+      "regions": [
+        "에르미타주",
+        "코트로티",
+        "샤토뇌프뒤파프",
+        "지공다스"
+      ],
+      "flavors": [
+        "시라",
+        "그르나슈",
+        "무르베드르",
+        "비오니에"
+      ],
+      "image": "regions/rhone.png",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vignobles_rhone.svg",
+        "license": "CC BY-SA 4.0",
+        "author": "DalGobboM"
+      }
+    },
+    "알자스": {
+      "summary": "프랑스 동북부, 독일과 인접. 단일 품종 라벨 표기와 가는 플루트 병이 특징.",
+      "body": "프랑스 동북부, 독일과 인접해 게르만 영향을 받은 산지. 단일 품종 표기(품종명을 라벨에 명시)와 가는 플루트 병이 특징.\n\n리슬링·게뷔르츠트라미너·피노 그리·뮈스카 4대 노블 품종으로 그랑크뤼 표기 가능.",
+      "aliases": [
+        "Alsace"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "대륙성·건조(보주산맥의 비그늘)"
+      },
+      "regions": [
+        "오랭",
+        "바랭"
+      ],
+      "flavors": [
+        "리슬링",
+        "게뷔르츠트라미너",
+        "피노 그리",
+        "피노 누아"
+      ],
+      "image": "regions/alsace.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vignoble_vu_depuis_Kaisersberg.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Rémi Stosskopf"
+      }
+    },
+    "토스카나": {
+      "summary": "이탈리아 중부. 산지오베제의 본거지이며 슈퍼 투스칸의 발상지.",
+      "body": "이탈리아 중부. 산지오베제 단일/주도 와인이 주력. 키안티·키안티 클라시코·브루넬로 디 몬탈치노(100% 산지오베제, 5년 숙성)·비노 노빌레가 4대 산지.\n\n1970년대 등급 밖에서 카베르네·메를로를 블렌딩한 '슈퍼 투스칸'이 등장(사시카이아·솔라이아·티냐넬로).",
+      "aliases": [
+        "Toscana",
+        "Tuscany"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "지중해성·구릉"
+      },
+      "regions": [
+        "키안티",
+        "키안티 클라시코",
+        "몬탈치노",
+        "몬테풀치아노",
+        "볼게리"
+      ],
+      "flavors": [
+        "산지오베제",
+        "카베르네 소비뇽",
+        "메를로"
+      ],
+      "image": "regions/tuscany.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Fiasco_di_vino_rosso_da_tavola_Monteriggioni.jpg",
+        "license": "CC BY 2.0",
+        "author": "giulio nepi"
+      }
+    },
+    "피에몬테": {
+      "summary": "이탈리아 북서부. 네비올로의 본거지(바롤로·바르바레스코).",
+      "body": "이탈리아 북서부. 네비올로의 본거지(바롤로·바르바레스코)와 일상용 바르베라·돌체토. 모스카토 다스티(약발포 디저트 와인)도 유명.\n\n알프스 기슭의 안개로 인해 와인이 깊고 향이 복잡하다. 토양·기후가 부르고뉴와 자주 비교된다.",
+      "aliases": [
+        "Piemonte",
+        "Piedmont"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "대륙성·안개 잦음"
+      },
+      "regions": [
+        "바롤로",
+        "바르바레스코",
+        "랑게",
+        "아스티"
+      ],
+      "flavors": [
+        "네비올로",
+        "바르베라",
+        "돌체토",
+        "모스카토"
+      ],
+      "image": "regions/piedmont.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cascin_Adelaide_Barolo_&_decanter.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Biskuit"
+      }
+    },
+    "리오하": {
+      "summary": "스페인의 대표 산지. 템프라니요와 미국산 오크 숙성의 결합.",
+      "body": "스페인의 대표 산지. 템프라니요 주도 블렌드(가르나차·마수엘로·그라치아노). 미국산 오크 숙성으로 바닐라·딜·코코넛 향이 시그니처.\n\n숙성 등급(크리안사 2년·레세르바 3년·그란 레세르바 5년+)으로 라벨에 명확히 표시되어 가성비 좋다.",
+      "aliases": [
+        "Rioja"
+      ],
+      "meta": {
+        "국가": "스페인",
+        "기후": "대륙성·온화"
+      },
+      "regions": [
+        "리오하 알타",
+        "리오하 알라베사",
+        "리오하 오리엔탈"
+      ],
+      "flavors": [
+        "템프라니요",
+        "가르나차"
+      ],
+      "image": "regions/rioja.png",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:DOCa_Rioja_location.svg",
+        "license": "CC BY-SA 3.0",
+        "author": "Té y kriptonita"
+      }
+    },
+    "나파밸리": {
+      "summary": "캘리포니아 프리미엄 산지. 카베르네 소비뇽 단일 품종으로 명성.",
+      "body": "캘리포니아의 프리미엄 산지. 카베르네 소비뇽이 단일 품종으로 명성. 1976년 '파리의 심판'에서 프랑스 그랑크뤼를 누른 사건으로 세계 무대 진입.\n\n작은 AVA(세부 산지)가 16개 있고 러더포드·오크빌이 가장 유명. 가격대가 가장 높은 미국 산지.",
+      "aliases": [
+        "Napa Valley"
+      ],
+      "meta": {
+        "국가": "미국",
+        "기후": "지중해성·따뜻"
+      },
+      "regions": [
+        "러더포드",
+        "오크빌",
+        "스택스 립",
+        "하월 마운틴"
+      ],
+      "flavors": [
+        "카베르네 소비뇽",
+        "샤르도네",
+        "메를로"
+      ],
+      "image": "regions/napa_valley.png",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:TTB_Map_Napa_Valley_AVA.png",
+        "license": "Public Domain"
+      }
+    },
+    "바로사밸리": {
+      "summary": "호주 남부. 시라즈의 본거지. 100년+ 묵은 올드바인 보존.",
+      "body": "호주 남부. 시라즈의 본거지. 100년+ 묵은 올드바인이 보존되어 있고 잼처럼 농밀한 풀바디 스타일.\n\n펜폴즈 그랜지가 호주 와인의 아이콘. GSM 블렌드도 강점.",
+      "aliases": [
+        "Barossa Valley"
+      ],
+      "meta": {
+        "국가": "호주",
+        "기후": "지중해성·뜨거움"
+      },
+      "regions": [
+        "바로사 밸리",
+        "이든 밸리"
+      ],
+      "flavors": [
+        "시라즈",
+        "그르나슈",
+        "무르베드르"
+      ],
+      "image": "regions/barossa_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Tanunda.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "ScottDavis"
+      }
+    },
+    "말보로": {
+      "summary": "뉴질랜드 남섬. 폭발적 과실의 소비뇽 블랑으로 세계 무대 진입.",
+      "body": "1973년부터 본격 재배 시작, 1980년대 클라우디 베이 등이 세계적 명성. 강한 일조와 서늘한 밤의 큰 일교차로 산도·향이 동시에 폭발.\n\n소비뇽 블랑 외 피노 누아·샤르도네·스파클링도 인상적. 뉴질랜드 와인 생산량의 70%를 차지.",
+      "aliases": [
+        "Marlborough"
+      ],
+      "regions": [
+        "와라파·아위테레레",
+        "와이라우 밸리"
+      ],
+      "flavors": [
+        "소비뇽 블랑",
+        "피노 누아",
+        "샤르도네"
+      ],
+      "meta": {
+        "국가": "뉴질랜드",
+        "기후": "해양성·일교차 큼"
+      },
+      "image": "regions/marlborough.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Marlborough_Sounds_From_Ferry.jpg",
+        "license": "Public Domain",
+        "author": "Ingolfson"
+      }
+    },
+    "멘도사": {
+      "summary": "아르헨티나 와인의 70%를 생산. 안데스 고지대 말벡의 본거지.",
+      "body": "안데스 산맥 동쪽 사면의 고지대(800~1,500m+)로 강한 일조량·낮은 강수량·큰 일교차가 결합. 말벡이 색·과실미·부드러운 탄닌의 균형을 가장 잘 표현하는 산지.\n\n우코 밸리(Uco Valley)·루한 데 쿠요(Luján de Cuyo)가 프리미엄 하위 산지.",
+      "aliases": [
+        "Mendoza"
+      ],
+      "regions": [
+        "우코 밸리",
+        "루한 데 쿠요",
+        "마이푸"
+      ],
+      "flavors": [
+        "말벡",
+        "보나르다",
+        "카베르네 소비뇽"
+      ],
+      "meta": {
+        "국가": "아르헨티나",
+        "기후": "대륙성·고지대 건조"
+      },
+      "image": "regions/mendoza.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Aconcagua_(aerial).jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Beatriz Moisset"
+      }
+    },
+    "베네토": {
+      "summary": "이탈리아 북동부. 생산량 1위. 프로세코·아마로네·소아베가 주요 와인.",
+      "body": "지역 다양성이 매우 풍부. 프로세코(글레라·스파클링), 아마로네 델라 발폴리첼라(말린 포도로 농축한 풀바디 레드), 소아베(가르가네가 화이트), 바르돌리노 등.\n\n아마로네는 4개월간 포도를 말려(아파시멘토) 당과 향을 농축한 뒤 발효, 15~16% 알코올과 강한 풀바디.",
+      "aliases": [
+        "Veneto"
+      ],
+      "regions": [
+        "발폴리첼라",
+        "소아베",
+        "코넬리아노·발도비아데네",
+        "바르돌리노"
+      ],
+      "flavors": [
+        "글레라",
+        "코르비나",
+        "가르가네가"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "온화·아드리아 해 영향"
+      }
+    },
+    "모젤": {
+      "summary": "독일의 가파른 슬레이트 비탈 리슬링. 산도 높고 도수 낮음.",
+      "body": "강을 따라 60도 가까운 급경사 포도밭이 펼쳐진다. 슬레이트 토양이 햇볕을 저장·반사해 서늘한 기후에서도 포도 성숙 가능.\n\n알코올 7~9%의 저도수에 산도·미네랄이 도드라지는 청량한 스타일. 카비네트·슈페트레제·아우슬레제 등 익은 정도(잔당)별 등급이 명확.",
+      "aliases": [
+        "Mosel",
+        "Moselle"
+      ],
+      "regions": [
+        "베른카스텔",
+        "피스포르트",
+        "잘츠리히"
+      ],
+      "flavors": [
+        "리슬링",
+        "엘블링",
+        "뮐러-투르가우"
+      ],
+      "meta": {
+        "국가": "독일",
+        "기후": "한랭·강 영향"
+      },
+      "image": "regions/mosel.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:080110_zell_mosel.JPG",
+        "license": "CC BY-SA 2.0 DE",
+        "author": "Friedrich Petersdorff"
+      }
+    },
+    "윌라멧 밸리": {
+      "summary": "미국 오리건의 피노 누아 본거지. 부르고뉴와 유사한 서늘한 기후.",
+      "body": "1965년 첫 피노 누아 식재 후 빠르게 명성을 얻은 신흥 산지. 우아하고 섬세한 부르고뉴 스타일에 가깝다는 평.\n\n던디 힐스(Dundee Hills)·이올라-아미티 힐스 같은 세부 AVA가 떼루아별 차이를 보여준다. 피노 누아 외 피노 그리·샤르도네도 강점.",
+      "aliases": [
+        "Willamette Valley"
+      ],
+      "regions": [
+        "던디 힐스",
+        "이올라-아미티 힐스",
+        "맥미니빌"
+      ],
+      "flavors": [
+        "피노 누아",
+        "피노 그리",
+        "샤르도네"
+      ],
+      "meta": {
+        "국가": "미국 (오리건)",
+        "기후": "서늘·해양성"
+      },
+      "image": "regions/willamette_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Willamette_Valley_Vineyards.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Doug Kerr"
+      }
+    },
+    "브루넬로 디 몬탈치노": {
+      "summary": "토스카나 몬탈치노에서 산지오베제(브루넬로 클론) 100%로 만드는 이탈리아 최상급 레드 DOCG.",
+      "body": "이탈리아 토스카나 남부 몬탈치노 언덕. 산지오베제의 현지 클론 '브루넬로'만 100% 사용하며 블렌딩이 금지된다. 1980년 이탈리아 첫 DOCG 중 하나로 지정됐다.\n\n최소 숙성 5년(오크 2년 포함), 리제르바는 6년. 강한 탄닌·산도로 장기 숙성력이 매우 크다. 비온디-산티(Biondi-Santi)가 원조 생산자로 꼽힌다. 더 가볍고 어릴 때 마시는 등급으로 로소 디 몬탈치노(Rosso di Montalcino)가 있다.",
+      "aliases": [
+        "BDM",
+        "Brunello",
+        "Brunello di Montalcino",
+        "브루넬로",
+        "몬탈치노",
+        "Montalcino"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "지역": "토스카나",
+        "기후": "지중해성·온난 건조"
+      },
+      "flavors": [
+        "산지오베제(브루넬로)"
+      ]
+    }
+  },
+  "flavorCategories": {
+    "과일류": {
+      "summary": "와인 풍미의 핵심. 적포도는 빨간→검은 과일, 화이트는 시트러스→핵과→열대 순.",
+      "body": "와인 풍미의 핵심. 적포도는 빨간 과일(체리·라즈베리·딸기)에서 검은 과일(블랙커런트·블랙베리·자두)로 스펙트럼이 이동.\n\n화이트는 시트러스(레몬·자몽)에서 핵과(복숭아·살구), 열대(파인애플·망고)까지 스펙트럼. 어린 와인은 신선한 과일, 숙성 와인은 말린/조린 과일.",
+      "flavors": [
+        "체리",
+        "블랙베리",
+        "자두",
+        "레몬",
+        "복숭아",
+        "파인애플"
+      ]
+    },
+    "꽃·식물": {
+      "summary": "장미·제비꽃·풀잎·피망 등. 어린 와인에서 도드라진다.",
+      "body": "장미(네비올로)·제비꽃(가메·말벡)·아카시아(샤르도네)·라일락 같은 꽃향이 자주 등장.\n\n풀잎·피망 같은 식물성 향은 소비뇽 블랑·카베르네 프랑·카르메네르의 시그니처. 어린 와인에서 더 도드라진다.",
+      "flavors": [
+        "장미",
+        "제비꽃",
+        "아카시아",
+        "풀",
+        "피망"
+      ]
+    },
+    "향신료": {
+      "summary": "후추·정향·계피·바닐라·감초. 품종 자체 또는 오크에서 온다.",
+      "body": "검은 후추(시라)·흰 후추(그뤼너 펠트리너)는 로탄돈 성분에서 직접 옴.\n\n정향·계피·바닐라는 오크 숙성의 영향이 크다. 감초·아니스도 따뜻한 산지 적포도에서 자주 등장.",
+      "flavors": [
+        "검은 후추",
+        "흰 후추",
+        "정향",
+        "계피",
+        "바닐라",
+        "감초"
+      ]
+    },
+    "오크·발효 부산물": {
+      "summary": "오크에서 오는 바닐라·토스트·연기와 MLF에서 오는 버터.",
+      "body": "오크에서 직접 오는 바닐라·토스트·연기·코코넛, 그리고 MLF로 생성되는 버터, 쉬르리(앙금 위 숙성)에서 오는 빵·견과류.\n\n양조 결정이 와인 캐릭터에 미치는 영향을 가장 잘 보여주는 카테고리.",
+      "flavors": [
+        "바닐라",
+        "토스트",
+        "버터",
+        "연기",
+        "빵",
+        "견과류"
+      ]
+    },
+    "흙·미네랄": {
+      "summary": "흙·버섯·송로·가죽·부싯돌·바닷물. 떼루아와 숙성의 표현.",
+      "body": "흙·버섯·송로·가죽 같은 흙냄새는 숙성 와인의 부케.\n\n미네랄(부싯돌·바닷물·돌)은 떼루아 묘사에 자주 쓰는 표현. 부르고뉴·샤블리·산세르·리아스 바이샤스에서 두드러진다.",
+      "flavors": [
+        "흙",
+        "버섯",
+        "송로",
+        "가죽",
+        "부싯돌",
+        "바닷물"
+      ]
+    }
+  },
+  "styles": {
+    "로제": {
+      "summary": "적포도 껍질을 짧게 침용해 분홍빛이 나오는 와인.",
+      "body": "양조법 3가지: (1) 직접 압착(가장 옅음·프로방스) (2) 단기 침용(2~24시간 색 추출 후 분리) (3) 세니에(레드 양조 중 일부 즙을 빼내 진한 로제로). 화이트 와인을 만들 듯 차게 발효.\n\n프로방스 = 옅고 드라이·미네랄, 타벨 = 진하고 풀바디, 화이트 진판델 = 달콤 미국식. EU에서는 적·백 와인 블렌딩으로 로제 만드는 것은 (샹파뉴 제외) 금지.",
+      "aliases": [
+        "Rosé",
+        "Rose Wine"
+      ],
+      "regions": [
+        "프로방스",
+        "타벨",
+        "남부 론"
+      ],
+      "flavors": [
+        "그르나슈",
+        "시라",
+        "무르베드르",
+        "생소"
+      ],
+      "image": "styles/rose.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Rosé_wine_-_July_2023_-_Sarah_Stierch_01-cropped.jpg",
+        "license": "CC BY 4.0",
+        "author": "Missvain"
+      }
+    },
+    "스파클링": {
+      "summary": "이산화탄소가 와인에 녹아 거품을 만드는 와인. 압력 1~6 bar.",
+      "body": "양조 방식: (1) 트라디시오넬/메토드 샹프누아즈 — 병내 2차 발효(샹파뉴·카바·크레망), 가장 복잡한 빵·견과류 풍미. (2) 샤르마 — 탱크내 2차 발효(프로세코·아스티), 신선한 과실미. (3) 메토드 앙세스트랄 — 1차 발효를 병에서 마무리(페티앙 나튀렐 'pét-nat').\n\n압력에 따라 '스푸만테(풀스파클링)·프리잔테(약발포)' 등으로 구분.",
+      "aliases": [
+        "Sparkling Wine",
+        "Espumoso",
+        "Spumante"
+      ],
+      "regions": [
+        "샹파뉴",
+        "프란치아코르타",
+        "카바",
+        "프로세코"
+      ],
+      "flavors": [
+        "샤르도네",
+        "피노 누아",
+        "글레라",
+        "마카베오"
+      ],
+      "image": "styles/sparkling.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Prosecco_di_Conegliano_bottle_and_glass.jpg",
+        "license": "CC BY 3.0",
+        "author": "Sandstein"
+      }
+    },
+    "샴페인": {
+      "summary": "프랑스 샹파뉴에서 전통방식(병내 2차 발효)으로 만드는 스파클링의 대명사.",
+      "body": "오직 샹파뉴 지방에서 샤르도네·피노 누아·피노 뫼니에로, 병 안에서 2차 발효(메토드 트라디시오넬)를 거쳐야 '샴페인'이라 부를 수 있다. 효모 잔여물(리)과의 접촉으로 빵·브리오슈·견과류 풍미가 생긴다.\n\nNV(논빈티지)는 여러 해를 블렌딩해 하우스 스타일의 일관성을, 빈티지는 작황 좋은 해만 만든다. 도자주(당 첨가)로 브뤼 나튀르~두까지 당도가 갈리고, 블랑 드 블랑(샤르도네 100%)·블랑 드 누아(적포도)·로제 등 스타일이 다양하다.",
+      "aliases": [
+        "Champagne",
+        "샴페인",
+        "샴빠뉴"
+      ],
+      "regions": [
+        "샹파뉴(랭스·에페르네)"
+      ],
+      "flavors": [
+        "샤르도네",
+        "피노 누아",
+        "피노 뫼니에"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "방식": "전통방식(병내 2차 발효)"
+      },
+      "image": "styles/champagne.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Champagne_Veuve_Clicquot_Brut.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Oleg Yunakov"
+      }
+    },
+    "카바": {
+      "summary": "스페인의 전통방식 스파클링. 샴페인과 같은 공법에 합리적 가격.",
+      "body": "주로 카탈루냐 페네데스에서 마카베오·자렐로·파렐야다로 만든다. 샴페인처럼 병 안에서 2차 발효(전통방식)를 거쳐 효모 풍미가 있으면서 가격은 훨씬 합리적이다.\n\n숙성 기간에 따라 카바 데 과르다(9개월+)·레세르바(18개월+)·그란 레세르바(30개월+)로 구분한다. 최상급은 단일 밭을 강조하는 '카바 데 파라헤 칼리피카도'.",
+      "aliases": [
+        "Cava",
+        "까바"
+      ],
+      "regions": [
+        "페네데스(카탈루냐)"
+      ],
+      "flavors": [
+        "마카베오",
+        "자렐로",
+        "파렐야다"
+      ],
+      "meta": {
+        "국가": "스페인",
+        "방식": "전통방식"
+      },
+      "image": "styles/cava.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Airline_bottle_cava.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Agne27"
+      }
+    },
+    "프로세코": {
+      "summary": "이탈리아 베네토의 탱크 방식 스파클링. 신선한 과실·꽃향, 캐주얼.",
+      "body": "글레라 품종으로 탱크 안에서 2차 발효(샤르마 방식)해 신선한 사과·배·흰꽃 향과 부드러운 거품을 살린다. 효모 풍미보다 1차 과실미가 중심이라 어릴 때 마신다.\n\n코넬리아노-발도비아데네 등 언덕 지역이 DOCG 최상급. 스푸만테(완전 발포)·프리잔테(약발포)로 나뉜다. 아페롤 스프리츠의 베이스로도 대중적이다.",
+      "aliases": [
+        "Prosecco",
+        "프로세코"
+      ],
+      "regions": [
+        "베네토(코넬리아노·발도비아데네)"
+      ],
+      "flavors": [
+        "글레라"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "방식": "샤르마(탱크)"
+      },
+      "image": "styles/prosecco.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Prosecco_DOC_Millesimato_Extra_Dry.jpg",
+        "license": "CC0",
+        "author": "Yari Muzzolon"
+      }
+    },
+    "프란치아코르타": {
+      "summary": "이탈리아 롬바르디아의 전통방식 스파클링. '이탈리아의 샴페인'.",
+      "body": "롬바르디아 프란치아코르타에서 샤르도네·피노 누아(·피노 비앙코)로 병내 2차 발효(전통방식)해 만든다. 프로세코와 달리 효모 풍미와 구조감이 뚜렷하고 최소 숙성 기간도 길다.\n\n논빈티지 18개월+, 리제르바 60개월+. 사텐(Satèn)은 블랑 드 블랑에 압력을 낮춘 부드러운 스타일. 이탈리아 최상급 스파클링으로 꼽힌다.",
+      "aliases": [
+        "Franciacorta",
+        "프란치아코르타"
+      ],
+      "regions": [
+        "롬바르디아"
+      ],
+      "flavors": [
+        "샤르도네",
+        "피노 누아"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "방식": "전통방식"
+      },
+      "image": "styles/franciacorta.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Franciacorta_milledi.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Yozh"
+      }
+    },
+    "크레망": {
+      "summary": "샹파뉴 밖 프랑스 지역들의 전통방식 스파클링.",
+      "body": "샹파뉴가 아닌 프랑스 AOC 지역에서 병내 2차 발효(전통방식)로 만든 스파클링의 총칭. 크레망 달자스·드 부르고뉴·드 루아르·드 리무 등 산지마다 품종이 다르다.\n\n샴페인과 같은 공법이라 효모 풍미가 있으면서 가격은 합리적이다. 각 지역 토착 품종(부르고뉴=샤르도네·피노 누아, 루아르=슈냉 블랑, 알자스=피노 블랑 등)을 반영한다.",
+      "aliases": [
+        "Crémant",
+        "크레망",
+        "크레망 달자스",
+        "크레망 드 부르고뉴"
+      ],
+      "regions": [
+        "알자스",
+        "부르고뉴",
+        "루아르",
+        "리무"
+      ],
+      "flavors": [
+        "샤르도네",
+        "피노 누아",
+        "슈냉 블랑"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "방식": "전통방식"
+      },
+      "image": "styles/cremant.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Crémant_de_Limoux_1531_bottle.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Tomas er"
+      }
+    },
+    "아스티": {
+      "summary": "피에몬테의 달콤한 저알코올 스파클링. 모스카토 품종의 포도향.",
+      "body": "피에몬테 아스티 일대에서 모스카토 비앙코로 만드는 달콤한 스파클링. 1차 발효 도중 압력을 가둬 자연 당분과 낮은 알코올(5~9%)을 남긴다(아스티/마르티노티 방식).\n\n아스티 스푸만테는 완전 발포, 모스카토 다스티는 약발포(프리잔테)에 더 달고 알코올이 더 낮다. 청포도·복숭아·오렌지꽃 향으로 디저트·브런치에 잘 맞는다.",
+      "aliases": [
+        "Asti",
+        "아스티",
+        "모스카토 다스티",
+        "Moscato d'Asti",
+        "아스티 스푸만테"
+      ],
+      "regions": [
+        "피에몬테(아스티)"
+      ],
+      "flavors": [
+        "모스카토"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "방식": "아스티(탱크)"
+      },
+      "image": "styles/asti.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:MOSCATO_ASTI.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Franz123456Franz"
+      }
+    },
+    "주정강화": {
+      "summary": "발효 도중/후 브랜디를 첨가해 알코올 15~22%로 끌어올린 와인.",
+      "body": "발효 도중 첨가하면 발효가 멈춰 잔당이 남고(포트·일부 셰리), 발효 후 첨가하면 드라이(피노 셰리). 알코올과 산화로 인해 보존성이 매우 강하다.\n\n포트(포르투갈 두로) — 레드·달콤. 셰리(스페인 헤레스) — 피노/만자니야 드라이부터 페드로 히메네스 초달콤까지. 마데이라 — 의도적 산화·가열로 안정. 마르살라(이탈리아).",
+      "aliases": [
+        "Fortified Wine"
+      ],
+      "regions": [
+        "두로(포트)",
+        "헤레스(셰리)",
+        "마데이라",
+        "시칠리아(마르살라)"
+      ],
+      "flavors": [
+        "투리가 나시오날",
+        "팔로미노",
+        "페드로 히메네스"
+      ],
+      "image": "styles/fortified.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg",
+        "license": "Public Domain",
+        "author": "Jon Sullivan"
+      }
+    },
+    "오렌지/내추럴": {
+      "summary": "백포도를 껍질과 함께 침용해 호박빛이 나는 와인 + 인공 첨가 최소 사조.",
+      "body": "오렌지 와인: 화이트 양조에 적포도 방식(껍질 침용)을 적용. 페놀이 추출되어 탄닌·구조감과 호박/오렌지빛이 나온다. 조지아의 8천년 암포라 양조가 기원, 이탈리아 프리울리·슬로베니아가 현대 부활지.\n\n내추럴: 자연 효모·SO2 최소화·여과 최소·인공 첨가물 배제. 정의가 모호하지만 양조 철학·운동. 일부 보틀에 부유물·약한 발포 자연 잔존.",
+      "aliases": [
+        "Orange Wine",
+        "Natural Wine",
+        "Skin Contact Wine"
+      ],
+      "regions": [
+        "조지아",
+        "프리울리(이탈리아)",
+        "슬로베니아",
+        "호주(자연주의)"
+      ],
+      "flavors": [
+        "리볼라 지알라",
+        "피노 그리",
+        "쇼냉 블랑"
+      ],
+      "image": "styles/orange_natural.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Oranger_Wein.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Lantus"
+      }
+    },
+    "디저트/스위트": {
+      "summary": "잔당이 높아 단맛이 도드라지는 와인. 귀부·늦수확·아이스·패시토 등.",
+      "body": "양조 방식: (1) 귀부(보트리티스) — 곰팡이가 수분을 증발시켜 당 농축(소테른·토카이·트로켄베렌). (2) 늦수확(Late Harvest) — 평소보다 늦게 따 당 농축. (3) 아이스와인 — 영하 7°C+에서 얼린 채로 수확·압착(독일 아이스바인, 캐나다 아이스와인). (4) 패시토 — 포도를 말려 농축(아마로네·빈산토).\n\n푸아그라·블루치즈·견과 디저트와 클래식 페어링.",
+      "aliases": [
+        "Dessert Wine",
+        "Sweet Wine"
+      ],
+      "regions": [
+        "소테른",
+        "토카이",
+        "독일(아이스바인)",
+        "캐나다(나이아가라)",
+        "이탈리아(빈산토)"
+      ],
+      "flavors": [
+        "세미용",
+        "푸르민트",
+        "리슬링",
+        "비달"
+      ],
+      "image": "styles/dessert.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vin_paille.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Marie Thérèse Grappe"
+      }
+    }
+  },
+  "classifications": {
+    "AOC/AOP": {
+      "summary": "프랑스의 원산지 통제 명칭. 산지·품종·수확량·양조법까지 규제.",
+      "body": "Appellation d'Origine Contrôlée(2009년 EU 통합 후 AOP로 명칭 변경, 라벨엔 혼용). 1935년 도입된 세계 최초의 종합 원산지 보호 제도.\n\n와인 외 치즈·올리브유·꿀에도 적용. 라벨에 'Appellation [지역명] Contrôlée'로 표기. 보르도·부르고뉴·샹파뉴·론 등 모두 AOC.",
+      "aliases": [
+        "AOC",
+        "AOP",
+        "Appellation d'Origine Contrôlée"
+      ],
+      "regions": [
+        "보르도",
+        "부르고뉴",
+        "샹파뉴",
+        "론",
+        "알자스"
+      ],
+      "image": "classifications/aoc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Paris_-_INAO.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Pymouss"
+      }
+    },
+    "그랑 크뤼": {
+      "summary": "Grand Cru. 산지마다 의미가 다른 '최고급' 표시.",
+      "body": "산지별 다른 의미:\n• 부르고뉴 — 전체 1.3%만 차지하는 최고 등급 밭(예: Romanée-Conti, Chambertin). 33개.\n• 알자스 — 1975년 지정 51개 그랑크뤼 밭. 4대 노블 품종만 허용.\n• 보르도(1855년 등급) — 5대 등급 모두 'Grand Cru Classé', 1등급은 'Premier Grand Cru Classé'.\n• 샹파뉴 — 320개 마을 중 17개에 부여(밭이 아닌 마을 단위).",
+      "aliases": [
+        "Grand Cru"
+      ],
+      "regions": [
+        "부르고뉴",
+        "알자스",
+        "보르도",
+        "샹파뉴"
+      ],
+      "image": "classifications/grand_cru.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Jo_Pithon_Clos_des_Bois_SGN_1994_label.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Tomas er"
+      }
+    },
+    "프르미에 크뤼": {
+      "summary": "Premier Cru / 1er Cru. 그랑 크뤼 바로 아래(부르고뉴) 또는 보르도 1등급.",
+      "body": "부르고뉴 — 그랑크뤼와 빌라주 사이의 등급. 약 640개 클리마. 라벨에 마을명 + 밭명(예: 'Beaune 1er Cru Les Grèves').\n\n보르도(1855년 메독 등급) — 'Premier Grand Cru Classé(1등급)'는 라피트·라투르·마고·오브리옹·무통 5대 샤토. 약자 1er로 자주 표기.",
+      "aliases": [
+        "Premier Cru",
+        "1er Cru"
+      ],
+      "regions": [
+        "부르고뉴",
+        "보르도(메독 1등급)"
+      ]
+    },
+    "DOCG": {
+      "summary": "이탈리아 최고 등급. 정부 봉인 의무, 약 76개.",
+      "body": "Denominazione di Origine Controllata e Garantita(통제·보장 원산지 명칭). 1980년부터 지정.\n\n키안티 클라시코·바롤로·바르바레스코·브루넬로 디 몬탈치노·아마로네 델라 발폴리첼라·프로세코 수페리오레·프란치아코르타 등. 병 입구에 정부 발급 핑크/그린 띠지(fascetta) 부착 의무.",
+      "aliases": [
+        "DOCG",
+        "Denominazione di Origine Controllata e Garantita"
+      ],
+      "regions": [
+        "키안티 클라시코",
+        "바롤로",
+        "브루넬로",
+        "아마로네",
+        "프로세코 수페리오레"
+      ],
+      "image": "classifications/docg.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Front_and_back_label_of_Amarone_della_Valpolicella.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "FotoosVanRobin"
+      }
+    },
+    "DOC": {
+      "summary": "이탈리아 통제 원산지 명칭. DOCG 바로 아래, 약 330개.",
+      "body": "Denominazione di Origine Controllata. 1963년 도입. DOCG보다 규정은 살짝 느슨하지만 여전히 산지·품종·수확량·숙성 규정을 검사받는다.\n\nDOC 와인이 일정 기간 품질을 인정받으면 DOCG로 승격 가능. 발폴리첼라·돌체토·돌체 디 몬탈치노·소아베(클라시코 제외) 등.",
+      "aliases": [
+        "DOC",
+        "Denominazione di Origine Controllata"
+      ],
+      "regions": [
+        "발폴리첼라",
+        "소아베",
+        "돌체토 다스티"
+      ]
+    },
+    "IGT": {
+      "summary": "이탈리아의 유연한 광역 산지 표시. 슈퍼 투스칸의 발상지.",
+      "body": "Indicazione Geografica Tipica. 1992년 도입. DOC/DOCG보다 넓은 지역·자유로운 품종·블렌딩을 허용.\n\n1970~80년대 토스카나 양조가들이 카베르네·메를로 블렌드를 만들었는데 DOC 규정 밖이라 '비노 다 타볼라(테이블 와인)'로 강등되는 사태. IGT(또는 토스카나 IGT) 카테고리가 만들어지며 사시카이아·솔라이아·티냐넬로 등 '슈퍼 투스칸'의 공식 자리.",
+      "aliases": [
+        "IGT",
+        "Indicazione Geografica Tipica"
+      ],
+      "regions": [
+        "토스카나(슈퍼 투스칸)",
+        "시칠리아",
+        "베네토"
+      ],
+      "image": "classifications/igt.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sassicaia.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Lucarelli"
+      }
+    },
+    "크리안사": {
+      "summary": "Crianza. 스페인 숙성 등급 — 레드 최소 2년(오크 6개월~1년 포함).",
+      "body": "리오하·리베라 델 두에로 등 주요 산지에서 가장 흔한 등급. 가성비 좋은 일상 와인.\n\n화이트/로제는 최소 1년(오크 6개월) 숙성. 라벨에 'Crianza' 명시.",
+      "aliases": [
+        "Crianza"
+      ],
+      "regions": [
+        "리오하",
+        "리베라 델 두에로",
+        "토로"
+      ],
+      "image": "classifications/crianza.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Tempranillowine.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Mick Stephenson"
+      }
+    },
+    "레세르바": {
+      "summary": "Reserva. 스페인 등급 — 레드 최소 3년(오크 1년+).",
+      "body": "크리안사보다 농밀하고 부케가 더 발달한 단계. 작황 좋은 해에 더 자주 출시.\n\n화이트/로제는 최소 2년(오크 6개월). 리오하·리베라 델 두에로·토로 등 주요 산지 모두 사용.",
+      "aliases": [
+        "Reserva"
+      ],
+      "regions": [
+        "리오하",
+        "리베라 델 두에로",
+        "리아스 바이샤스"
+      ]
+    },
+    "그란 레세르바": {
+      "summary": "Gran Reserva. 스페인 최상위 숙성 등급 — 레드 최소 5년(오크 2년+병 3년).",
+      "body": "최고 작황 해에만 생산하는 와이너리가 많아 매년 출시되지 않는다. 부케가 매우 발달해 가죽·담배·말린 과일이 도드라진다.\n\n화이트/로제는 최소 4년(오크 6개월). 리오하·리베라 델 두에로의 톱 와인이 주로 여기 속함.",
+      "aliases": [
+        "Gran Reserva"
+      ],
+      "regions": [
+        "리오하 알타",
+        "리오하 알라베사",
+        "리베라 델 두에로"
+      ]
+    },
+    "AVA": {
+      "summary": "American Viticultural Area. 미국의 지리적 산지 구분.",
+      "body": "1980년 도입. ~270개. 캘리포니아·오리건·워싱턴 등에 광역(예: 캘리포니아 AVA)부터 세부(예: 러더포드 AVA)까지 계층적.\n\n프랑스 AOC와 달리 품종·수확량·양조법은 규제하지 않음. '85% 규칙' — 라벨의 AVA를 표시하려면 그 산지 포도가 85% 이상이어야 함.",
+      "aliases": [
+        "AVA",
+        "American Viticultural Area"
+      ],
+      "regions": [
+        "나파밸리",
+        "윌라멧 밸리",
+        "콜럼비아 밸리",
+        "센트럴 코스트"
+      ],
+      "image": "classifications/ava.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Solomon_Hills_Rose_(2).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Willbot858"
+      }
+    },
+    "GI": {
+      "summary": "Geographical Indication. 호주·뉴질랜드 등 신세계의 지리 표시.",
+      "body": "AVA와 유사하게 산지만 규정. 호주는 1993년 도입, ~110개. 'South Eastern Australia'(광역)부터 'Eden Valley'(세부)까지 4단계 계층.\n\n뉴질랜드도 별도 GI 체계(2017년 정비). 캐나다 VQA, 남아공 WO도 비슷한 신세계 산지 표시 시스템.",
+      "aliases": [
+        "GI",
+        "Geographical Indication"
+      ],
+      "regions": [
+        "바로사 밸리",
+        "쿠나와라",
+        "말보로",
+        "센트럴오타고"
+      ]
+    }
+  },
+  "winemaking": {
+    "쉬르 리": {
+      "summary": "Sur lie. 발효 후 죽은 효모(앙금) 위에서 와인을 계속 숙성.",
+      "body": "효모가 분해되며(autolysis) 나오는 단백질·다당류가 와인에 빵·견과류·크림 풍미와 입감의 부피감을 더한다.\n\n뮈스카데 쉬르 리, 샴페인 병내 2차 발효(짧게는 15개월~길게는 10년+), 일부 샤르도네에 사용. 흔히 'bâtonnage(앙금 휘젓기)'와 함께 적용.",
+      "aliases": [
+        "Sur Lie",
+        "Lees Aging"
+      ],
+      "regions": [
+        "뮈스카데",
+        "샹파뉴",
+        "부르고뉴 화이트"
+      ],
+      "flavors": [
+        "샤르도네",
+        "믈롱 드 부르고뉴"
+      ],
+      "image": "winemaking/sur_lie.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Merlot_wine_lees_after_fermentation.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Agne27"
+      }
+    },
+    "탄소 침지법": {
+      "summary": "Carbonic maceration. 통째 포도송이를 CO2 가득한 탱크에서 발효 시작.",
+      "body": "산소를 차단한 탱크에 포도를 통째로(파쇄 없이) 넣으면 포도 알 안에서 자체 효소·미생물로 알코올 발효가 시작된다. 무거운 위쪽 포도가 아래쪽 포도를 으깨면서 단계적으로 일반 발효로 전환.\n\n결과: 색은 진하나 탄닌은 가볍고, 바나나·풍선껌·딸기 같은 신선·과실 향이 강하게 발달. 보졸레 누보의 시그니처.",
+      "aliases": [
+        "Carbonic Maceration",
+        "Macération Carbonique"
+      ],
+      "regions": [
+        "보졸레",
+        "남부 론(부분 적용)"
+      ],
+      "flavors": [
+        "가메",
+        "그르나슈"
+      ],
+      "image": "winemaking/carbonic_maceration.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Beaujolais_nouveau_wine.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Agne27"
+      }
+    },
+    "귀부": {
+      "summary": "Noble rot. 보트리티스 곰팡이가 익은 포도에 침투해 당·향을 농축.",
+      "body": "Botrytis cinerea라는 곰팡이가 익은 포도 껍질에 침투해 수분만 증발시킨다. 결과는 쪼그라든 포도 — 당·산·향이 모두 농축. 같은 곰팡이가 잘못된 시기에 오면 '회색 부패'로 와인을 망친다.\n\n소테른(보르도)·토카이(헝가리)·트로켄베렌아우스레제(독일)의 핵심. 안개와 햇볕이 교차하는 강가 기후가 이상적. 한 포도밭에서 여러 차례 손수확.",
+      "aliases": [
+        "Noble Rot",
+        "Botrytis",
+        "Pourriture Noble",
+        "Edelfäule"
+      ],
+      "regions": [
+        "소테른",
+        "토카이",
+        "라인가우(독일)"
+      ],
+      "flavors": [
+        "세미용",
+        "푸르민트",
+        "리슬링"
+      ],
+      "image": "winemaking/noble_rot.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Botrytis_riesling.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Tom Maack"
+      }
+    }
+  },
+  "producers": {
+    "도멘 드 라 로마네콩티": {
+      "summary": "부르고뉴 본로마네의 그랑크뤼 독점 밭을 소유한, 세계에서 가장 비싼 와인의 대명사.",
+      "body": "약칭 DRC. 로마네콩티·라 타슈 두 그랑크뤼를 통째로 소유(모노폴)하며 리쉬부르·에셰조 등에도 밭을 가진다. 피노 누아 단일 품종의 정점으로 여겨진다.\n\n극소량 생산·유기농/바이오다이나믹 재배로 유명하며, 로마네콩티 한 병은 경매에서 수천만 원을 호가한다. 부르고뉴 떼루아 신화의 핵심.",
+      "aliases": [
+        "DRC",
+        "Domaine de la Romanée-Conti",
+        "Romanée-Conti",
+        "로마네콩티",
+        "로마네 콩티"
+      ],
+      "regions": [
+        "부르고뉴 본로마네"
+      ],
+      "flavors": [
+        "로마네콩티",
+        "라 타슈",
+        "리쉬부르"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴 코트 드 뉘",
+        "품종": "피노 누아"
+      },
+      "image": "producers/romanee_conti.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vosne-Romanée,_le_Domaine_de_la_Romanée-Conti.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Wikipedro"
+      }
+    },
+    "샤토 페트뤼스": {
+      "summary": "보르도 포므롤의 정상. 공식 등급 없이도 최고가에 거래되는 메를로의 성지.",
+      "body": "약 11.5헥타르의 작은 밭에서 거의 100% 메를로로 만든다. 포므롤에는 1855 같은 공식 등급이 없지만 페트뤼스는 1등급 샤토들과 어깨를 나란히 하거나 능가하는 가격대.\n\n점토질 토양이 메를로에 벨벳 같은 질감과 깊이를 준다. '샤토'라는 말이 무색하게 소박한 외관이지만 내용물은 세계 최정상.",
+      "aliases": [
+        "Pétrus",
+        "Petrus",
+        "페트뤼스",
+        "페트루스"
+      ],
+      "regions": [
+        "보르도 포므롤"
+      ],
+      "flavors": [
+        "Pétrus"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 포므롤",
+        "품종": "메를로"
+      },
+      "image": "producers/petrus.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pétrus_(château)_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Giogo"
+      }
+    },
+    "샤토 라피트 로칠드": {
+      "summary": "1855 메독 등급 1등급 5대 샤토의 필두. 우아함의 대명사.",
+      "body": "포이약에 위치한 1855년 제정 1등급(Premier Cru) 샤토. 라투르·마고·오브리옹·무통과 함께 5대 1등급을 이룬다. 카베르네 소비뇽 주도의 좌안 블렌드.\n\n힘보다 우아함·섬세함으로 평가받으며, 특히 아시아 시장에서 최고의 브랜드 파워를 가진다. 1868년 로칠드(로스차일드) 가문이 인수했다.",
+      "aliases": [
+        "Château Lafite Rothschild",
+        "Lafite",
+        "라피트",
+        "라피트 로칠드"
+      ],
+      "regions": [
+        "보르도 포이약"
+      ],
+      "flavors": [
+        "Château Lafite Rothschild",
+        "Carruades de Lafite"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 포이약",
+        "등급": "1855 1등급",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/lafite_rothschild.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Château_Lafite-Rothschild.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "PA"
+      }
+    },
+    "샤토 디켐": {
+      "summary": "소테른 귀부 와인의 절대적 정점. 1855 등급에서 유일한 '특등급(1등급 초월)'.",
+      "body": "1855 등급에서 홀로 'Premier Cru Supérieur(1등급 상위)'로 분류된 유일한 샤토. 세미용·소비뇽 블랑에 보트리티스(귀부균)가 만든 초농축 스위트 와인.\n\n포도알을 여러 차례 선별 수확하고 극소량만 생산해 수십 년 이상 숙성한다. 작황이 나쁜 해엔 아예 그랑뱅을 내지 않는 완벽주의로 유명.",
+      "aliases": [
+        "Château d'Yquem",
+        "Yquem",
+        "디켐",
+        "이켐"
+      ],
+      "regions": [
+        "보르도 소테른"
+      ],
+      "flavors": [
+        "Château d'Yquem"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 소테른",
+        "품종": "세미용·소비뇽 블랑"
+      },
+      "image": "producers/yquem.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Château_d'Yquem.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Benjamin Zingg, Switzerland"
+      }
+    },
+    "크루그": {
+      "summary": "샴페인 프레스티지 하우스의 정점. 논빈티지에도 장기 숙성·오크 발효를 고집.",
+      "body": "1843년 설립. 모든 큐베를 소형 오크통에서 1차 발효하고 리저브 와인을 폭넓게 블렌딩해 복합미를 극대화한다. 논빈티지 '그랑 큐베'조차 여러 해 리저브를 겹쳐 만든다.\n\n단일 밭 블랑 드 블랑 '클로 뒤 메닐', 단일 밭 블랑 드 누아 '클로 당보네'는 샴페인 중 최고가군. 파워풀하고 견과류·브리오슈 풍미가 짙다.",
+      "aliases": [
+        "Krug",
+        "크루그",
+        "크뤼그"
+      ],
+      "regions": [
+        "프랑스 샹파뉴 랭스"
+      ],
+      "flavors": [
+        "Grande Cuvée",
+        "Clos du Mesnil"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "샹파뉴",
+        "품종": "피노 누아·샤르도네·뫼니에"
+      },
+      "image": "producers/krug.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Krug_1988_and_box.jpg",
+        "license": "CC BY 4.0",
+        "author": "Champagnemaster"
+      }
+    },
+    "가야": {
+      "summary": "피에몬테 네비올로를 세계 무대에 올린 이탈리아의 상징적 생산자.",
+      "body": "바르바레스코를 본거지로, 안젤로 가야가 1960~70년대 품질 혁명을 이끌었다. 단일 밭(소리 산 로렌초·소리 틸딘·코스타 루시) 개념을 이탈리아에 정착시킨 주역.\n\n프랑스식 바리크·수확량 감축을 도입해 논란과 명성을 동시에 얻었다. 이후 토스카나(볼게리·몬탈치노)로도 확장. '이탈리아 와인의 왕'으로 불린다.",
+      "aliases": [
+        "Gaja",
+        "가야",
+        "안젤로 가야"
+      ],
+      "regions": [
+        "피에몬테 바르바레스코"
+      ],
+      "flavors": [
+        "Sorì Tildìn",
+        "Barbaresco"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "지역": "피에몬테",
+        "품종": "네비올로"
+      },
+      "image": "producers/gaja.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sori_San_Lorenzo_Gaja_-_bottle.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Renzo Grosso"
+      }
+    },
+    "비온디-산티": {
+      "summary": "브루넬로 디 몬탈치노를 창시한 원조 생산자.",
+      "body": "19세기 후반 클레멘테 산티와 페루초 비온디-산티가 산지오베제의 '브루넬로' 클론을 선별해 장기 숙성형 레드를 확립했다. 사실상 브루넬로라는 와인 자체의 발상지.\n\n일 그레포(Il Greppo) 에스테이트의 리제르바는 수십 년 숙성 잠재력으로 전설적. 전통적이고 엄격한 스타일을 지켜온 '몬탈치노의 뿌리'.",
+      "aliases": [
+        "Biondi-Santi",
+        "비온디산티",
+        "비온디 산티"
+      ],
+      "regions": [
+        "토스카나 몬탈치노"
+      ],
+      "flavors": [
+        "Brunello di Montalcino Riserva"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "지역": "토스카나 몬탈치노",
+        "품종": "산지오베제"
+      },
+      "image": "producers/biondi_santi.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Brunello_di_Montalcino_-_Biondi_Santi_-_Bottle.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Renzo Grosso"
+      }
+    },
+    "테누타 산 귀도 (사시카이아)": {
+      "summary": "슈퍼 투스칸의 원조. 토스카나에 보르도 품종을 심어 세계를 놀라게 했다.",
+      "body": "볼게리 해안에 카베르네 소비뇽·프랑을 심어 1968년 첫 출시. 당시 DOC 규정 밖이라 '테이블 와인'으로 분류됐지만 품질로 슈퍼 투스칸 붐을 일으켰다.\n\n1994년 사시카이아 단독으로 'Bolgheri Sassicaia DOC'를 부여받은 유일한 단일 와인. 오르넬라이아·티냐넬로와 함께 이탈리아 현대 명품의 문을 열었다.",
+      "aliases": [
+        "Sassicaia",
+        "Tenuta San Guido",
+        "사시카이아",
+        "슈퍼 투스칸"
+      ],
+      "regions": [
+        "토스카나 볼게리"
+      ],
+      "flavors": [
+        "Sassicaia"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "지역": "토스카나 볼게리",
+        "품종": "카베르네 소비뇽·프랑"
+      },
+      "image": "producers/sassicaia.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sassicaia_crop.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Lucarelli (파생: Murgh)"
+      }
+    },
+    "베가 시실리아": {
+      "summary": "스페인 최고의 명가. 리베라 델 두에로에서 초장기 숙성 레드를 만든다.",
+      "body": "1864년 설립. 대표 와인 '우니코(Único)'는 오크·병에서 10년 안팎 숙성 후 출시하며, 작황 좋은 해만 생산한다. 템프라니요에 소량의 보르도 품종을 블렌딩.\n\n스페인 와인이 저평가되던 시절부터 세계 최상급으로 인정받은 상징. 자매 브랜드 알리온·핀투스 등으로 확장했다.",
+      "aliases": [
+        "Vega Sicilia",
+        "Único",
+        "Unico",
+        "베가 시실리아",
+        "우니코"
+      ],
+      "regions": [
+        "스페인 리베라 델 두에로"
+      ],
+      "flavors": [
+        "Único",
+        "Valbuena 5º"
+      ],
+      "meta": {
+        "국가": "스페인",
+        "지역": "리베라 델 두에로",
+        "품종": "템프라니요"
+      },
+      "image": "producers/vega_sicilia.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vega_Sicilia_Único_2000.jpg",
+        "license": "CC BY 2.0",
+        "author": "Dominic Lockyer"
+      }
+    },
+    "에곤 뮐러": {
+      "summary": "독일 리슬링의 정점. 자르 샤르츠호프베르크의 귀부 와인이 전설.",
+      "body": "모젤 지류 자르(Saar)의 샤르츠호프베르크 밭에서 리슬링을 만든다. 특히 트로켄베렌아우스레제(TBA)와 아이스바인은 극소량 생산되어 세계에서 가장 비싼 화이트에 속한다.\n\n서늘한 기후의 높은 산도와 순수한 과실·미네랄이 수십 년 숙성으로 꿀·페트롤 풍미로 진화한다. 독일 프래디카츠바인의 살아있는 교과서.",
+      "aliases": [
+        "Egon Müller",
+        "Egon Muller",
+        "Scharzhof",
+        "에곤 뮐러",
+        "에곤 뮬러"
+      ],
+      "regions": [
+        "독일 모젤(자르)"
+      ],
+      "flavors": [
+        "Scharzhofberger Riesling"
+      ],
+      "meta": {
+        "국가": "독일",
+        "지역": "모젤·자르",
+        "품종": "리슬링"
+      },
+      "image": "producers/egon_muller.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wiltiger_Scharzhofberg.jpg",
+        "license": "CC0",
+        "author": "Rhmaster"
+      }
+    },
+    "펜폴즈": {
+      "summary": "호주를 대표하는 명가. 시라즈 블렌딩의 걸작 '그랜지'로 유명.",
+      "body": "1844년 설립. 대표 와인 '그랜지(Grange)'는 1951년 맥스 슈베르트가 만든 남호주 여러 산지의 시라즈 블렌드로, 호주 와인의 국보급 상징이 됐다.\n\n단일 밭보다 여러 지역·구획을 블렌딩해 일관된 스타일을 만드는 '하우스 스타일' 철학. 빈 555 등 등급 체계와 재코르킹 클리닉으로도 유명하다.",
+      "aliases": [
+        "Penfolds",
+        "Grange",
+        "펜폴즈",
+        "그랜지"
+      ],
+      "regions": [
+        "호주 남호주(바로사 등)"
+      ],
+      "flavors": [
+        "Grange",
+        "Bin 707"
+      ],
+      "meta": {
+        "국가": "호주",
+        "지역": "남호주",
+        "품종": "시라즈"
+      },
+      "image": "producers/penfolds.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Penfolds_Magill_20190626_155109.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Picadder"
+      }
+    },
+    "스크리밍 이글": {
+      "summary": "나파 밸리 컬트 와인의 대명사. 극소량·초고가 카베르네.",
+      "body": "1990년대 나파 오크빌에서 등장한 '컬트 카베르네'의 상징. 연간 수천 병 수준의 극소량만 생산하며 회원 대기 리스트로만 판매돼 가격이 치솟았다.\n\n농익은 과실·풍부한 질감의 현대 나파 스타일을 대표한다. 할란 이스테이트·스크리밍 이글 등 컬트 와인들이 캘리포니아를 세계 최정상 반열에 올렸다.",
+      "aliases": [
+        "Screaming Eagle",
+        "스크리밍 이글",
+        "컬트 와인"
+      ],
+      "regions": [
+        "미국 나파 밸리(오크빌)"
+      ],
+      "flavors": [
+        "Screaming Eagle Cabernet Sauvignon"
+      ],
+      "meta": {
+        "국가": "미국",
+        "지역": "나파 밸리",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/screaming_eagle.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Napa_Valley_Sign.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Prof. Rabbit"
+      }
+    },
+    "앙리 자이에": {
+      "summary": "'부르고뉴의 신'으로 불린 전설적 재배자. 2006년 타계 후 와인값이 폭등했다.",
+      "body": "본로마네의 재배자로, 크로 파랑투(Cros Parantoux) 밭을 부활시켜 그랑크뤼급 명성으로 끌어올렸다. 저수확·저개입·완숙 포도 철학으로 후대 부르고뉴 생산자들에게 지대한 영향을 남겼다.\n\n2006년 별세 후 그의 와인은 경매에서 로마네콩티에 버금가는 가격에 거래된다. '과거의 거장'이자 여전히 살아있는 스타일의 원천.",
+      "aliases": [
+        "Henri Jayer",
+        "앙리 자이에",
+        "앙리 자이에르",
+        "크로 파랑투"
+      ],
+      "regions": [
+        "부르고뉴 본로마네"
+      ],
+      "flavors": [
+        "Cros Parantoux",
+        "Échezeaux"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴",
+        "품종": "피노 누아"
+      },
+      "image": "producers/henri_jayer.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Jayer_Echezeaux_Grand_Cru_Burgundy.jpg",
+        "license": "CC BY 2.0",
+        "author": "Dale Cruse"
+      }
+    },
+    "도멘 르루아": {
+      "summary": "부르고뉴 최고가 도멘. 랄루 비즈-르루아가 이끄는 바이오다이나믹·초저수확의 정점.",
+      "body": "본로마네에 자리하며 1988년 랄루 비즈-르루아가 샤를 노엘라 도멘을 인수해 세웠다. 극단적으로 낮은 수확량과 철저한 바이오다이나믹 농법으로 응축된 와인을 만든다.\n\n뮈지니·샹베르탱·리쉬부르 등 다수의 그랑크뤼를 보유하며, 근래 경매가는 DRC를 능가하기도 한다. 별도로 네고시앙 '메종 르루아'(1868년 창립)도 운영한다.",
+      "aliases": [
+        "Domaine Leroy",
+        "Leroy",
+        "르루아",
+        "랄루 비즈-르루아"
+      ],
+      "regions": [
+        "부르고뉴 본로마네"
+      ],
+      "flavors": [
+        "Musigny",
+        "Chambertin",
+        "Richebourg"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴 코트 드 뉘",
+        "품종": "피노 누아"
+      }
+    },
+    "도멘 도브네": {
+      "summary": "랄루 비즈-르루아의 개인 미니 도멘. 도멘 르루아보다 더 희귀한 컬트.",
+      "body": "생로맹에 위치한, 랄루 비즈-르루아가 개인적으로 소유·운영하는 초소규모 도멘. 도멘 르루아와 별개로 극소량만 생산해 시장에서 더욱 보기 힘들다.\n\n슈발리에-몽라셰·뫼르소 같은 화이트 그랑/프리미어크뤼와 마지-샹베르탱 등 레드로 유명하다. 바이오다이나믹·저개입 철학은 르루아와 동일하다.",
+      "aliases": [
+        "Domaine d'Auvenay",
+        "d'Auvenay",
+        "도브네",
+        "오브네"
+      ],
+      "regions": [
+        "부르고뉴 생로맹"
+      ],
+      "flavors": [
+        "Chevalier-Montrachet",
+        "Mazis-Chambertin"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴",
+        "품종": "샤르도네·피노 누아"
+      }
+    },
+    "도멘 조르주 루미에": {
+      "summary": "샹볼뮈지니의 명가. 본마르·뮈지니로 손꼽히는 부르고뉴 레퍼런스.",
+      "body": "샹볼뮈지니에 본거지를 둔 도멘으로 현재 크리스토프 루미에가 양조를 이끈다. 순수하고 투명한 피노 누아 스타일로 세계적 컬트가 됐다.\n\n본마르·뮈지니·뤼쇼트-샹베르탱 그랑크뤼와 샹볼뮈지니 1er 레 자무뢰즈가 특히 유명하다. 물량이 적어 프리미엄이 매우 높다.",
+      "aliases": [
+        "Domaine Georges Roumier",
+        "Roumier",
+        "루미에",
+        "조르주 루미에"
+      ],
+      "regions": [
+        "부르고뉴 샹볼뮈지니"
+      ],
+      "flavors": [
+        "Bonnes-Mares",
+        "Musigny",
+        "Les Amoureuses"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴 코트 드 뉘",
+        "품종": "피노 누아"
+      }
+    },
+    "도멘 로베르 그로피에": {
+      "summary": "샹볼뮈지니 레 자무뢰즈로 이름난 소규모 부르고뉴 도멘.",
+      "body": "모레생드니·주브레샹베르탱 일대에 밭을 둔 가족 도멘. 향기롭고 우아한 스타일로 애호가들의 사랑을 받는다.\n\n대표작은 샹볼뮈지니 1er 레 자무뢰즈이며, 본마르·샹베르탱 클로 드 베즈 그랑크뤼도 만든다. 생산량이 적어 구하기 어렵다.",
+      "aliases": [
+        "Domaine Robert Groffier",
+        "Groffier",
+        "그로피에",
+        "로베르 그로피에"
+      ],
+      "regions": [
+        "부르고뉴 모레생드니"
+      ],
+      "flavors": [
+        "Les Amoureuses",
+        "Bonnes-Mares"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "부르고뉴 코트 드 뉘",
+        "품종": "피노 누아"
+      },
+      "image": "producers/groffier.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Morey_St_Denis_vineyard_with_Christian_cross_in_Bourgogne.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "tara hunt"
+      }
+    },
+    "샤토 라투르": {
+      "summary": "포이약의 1855 1등급. 강건함과 장기 숙성력의 표본.",
+      "body": "포이약 남단 지롱드강에 면한 1등급 샤토. 힘있고 견고한 구조와 뛰어난 장기 숙성력으로 유명하며, 그레이트 빈티지는 수십 년 이상 간다.\n\n랜드마크인 원형 석탑(La Tour)이 상징. 2012년 빈티지부터 앙 프리뫼르(선물 거래)를 중단하고 마실 시기가 된 뒤 출시하는 정책으로 전환했다.",
+      "aliases": [
+        "Château Latour",
+        "Latour",
+        "라투르"
+      ],
+      "regions": [
+        "보르도 포이약"
+      ],
+      "flavors": [
+        "Château Latour",
+        "Les Forts de Latour"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 포이약",
+        "등급": "1855 1등급",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/latour.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Château_La_Tour.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Benjamin Zingg, Switzerland"
+      }
+    },
+    "샤토 마고": {
+      "summary": "마고 마을의 1855 1등급. '벨벳 장갑 속 강철 주먹'으로 불리는 우아함.",
+      "body": "마고 AOC를 대표하는 1등급 샤토. 신고전주의 양식의 아름다운 건물로도 유명하다. 향기롭고 섬세하면서 속엔 힘을 감춘 스타일.\n\n1980년대 코린 멘첼로풀로스 가문 아래 품질이 정점에 올랐다. 세컨드 와인 '파비용 루주'도 높은 평가를 받는다.",
+      "aliases": [
+        "Château Margaux",
+        "Margaux",
+        "마고"
+      ],
+      "regions": [
+        "보르도 마고"
+      ],
+      "flavors": [
+        "Château Margaux",
+        "Pavillon Rouge"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 마고",
+        "등급": "1855 1등급",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/margaux.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Margaux_exterior.jpg",
+        "license": "CC BY 2.0",
+        "author": "BillBl"
+      }
+    },
+    "샤토 무통 로칠드": {
+      "summary": "1973년 2등급에서 1등급으로 승격된 유일한 샤토. 예술가 라벨로 유명.",
+      "body": "포이약에 위치하며, 바롱 필리프 드 로칠드의 집념으로 1973년 2등급에서 1등급으로 승격됐다 — 1855 등급의 유일한 공식 변경. 진하고 화려한 스타일.\n\n1945년부터 매년 유명 화가(피카소·샤갈·워홀 등)가 라벨을 그리는 전통으로도 유명하다. 라피트·라투르와 함께 포이약의 1등급 트리오를 이룬다.",
+      "aliases": [
+        "Château Mouton Rothschild",
+        "Mouton",
+        "무통",
+        "무통 로칠드"
+      ],
+      "regions": [
+        "보르도 포이약"
+      ],
+      "flavors": [
+        "Château Mouton Rothschild"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 포이약",
+        "등급": "1855 1등급(1973 승격)",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/mouton_rothschild.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Château_Mouton_Rothschild_x.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Benjamin Zingg, Switzerland"
+      }
+    },
+    "샤토 오브리옹": {
+      "summary": "1855 1등급 중 유일한 메독 밖(그라브) 샤토. 가장 오래된 명가.",
+      "body": "보르도 남부 페삭레오냥(그라브)에 위치. 1855 메독 등급에 유일하게 포함된 그라브 샤토다. 17세기부터 명성이 기록됐고, 새뮤얼 피프스가 1663년 일기에 'Ho Bryan'을 언급했다.\n\n자갈 토양에서 카베르네 소비뇽·메를로를 블렌딩하며 훈연·미네랄 뉘앙스가 특징. 드물게 소량 생산하는 화이트(오브리옹 블랑)도 최고급으로 꼽힌다.",
+      "aliases": [
+        "Château Haut-Brion",
+        "Haut-Brion",
+        "오브리옹"
+      ],
+      "regions": [
+        "보르도 그라브(페삭레오냥)"
+      ],
+      "flavors": [
+        "Château Haut-Brion"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "지역": "보르도 그라브",
+        "등급": "1855 1등급",
+        "품종": "카베르네 소비뇽·메를로"
+      },
+      "image": "producers/haut_brion.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pessac_Château_Haut-Brion.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Henry Salomé"
+      }
+    },
+    "자코모 콘테르노": {
+      "summary": "피에몬테 전통주의 바롤로의 정점. '몬포르티노' 리제르바로 전설적.",
+      "body": "몬포르테 달바에 본거지를 둔 전통주의 바롤로 생산자. 긴 침용과 대형 오크(보테) 장기 숙성으로 응축되고 오래 가는 네비올로를 만든다. 현재 로베르토 콘테르노가 이끈다.\n\n최상급 밭 카시나 프란차에서 나오는 '바롤로 몬포르티노 리제르바'는 이탈리아 최고의 레드 중 하나로 꼽히며 극도로 장수한다.",
+      "aliases": [
+        "Giacomo Conterno",
+        "Monfortino",
+        "자코모 콘테르노",
+        "콘테르노",
+        "몬포르티노"
+      ],
+      "regions": [
+        "피에몬테 몬포르테 달바"
+      ],
+      "flavors": [
+        "Barolo Monfortino Riserva",
+        "Cascina Francia"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "지역": "피에몬테",
+        "품종": "네비올로"
+      }
+    },
+    "오퍼스 원": {
+      "summary": "무통 로칠드와 로버트 몬다비가 손잡은 나파의 프랑스-미국 합작 아이콘.",
+      "body": "1979년 바롱 필리프 드 로칠드(무통)와 로버트 몬다비가 설립한 조인트 벤처. 나파 오크빌에서 보르도 블렌드(카베르네 소비뇽 중심)를 만든다.\n\n캘리포니아에 '보르도 1등급' 수준의 프리미엄 개념을 정착시킨 상징적 존재. 우주선을 닮은 와이너리 건물과 단일 그랑뱅 체제로 유명하다.",
+      "aliases": [
+        "Opus One",
+        "오퍼스 원",
+        "오푸스 원"
+      ],
+      "regions": [
+        "미국 나파 밸리(오크빌)"
+      ],
+      "flavors": [
+        "Opus One"
+      ],
+      "meta": {
+        "국가": "미국",
+        "지역": "나파 밸리",
+        "품종": "카베르네 소비뇽 블렌드"
+      },
+      "image": "producers/opus_one.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Opus-One-Szmurlo.jpg",
+        "license": "CC BY 2.5",
+        "author": "Cszmurlo"
+      }
+    },
+    "할란 이스테이트": {
+      "summary": "'캘리포니아의 1등급'을 표방한 나파 컬트 카베르네의 정점.",
+      "body": "빌 할란이 1980~90년대에 오크빌 서쪽 언덕에 세운 컬트 와이너리. '캘리포니아의 프리미어 그로스(1등급)'를 목표로 극소량의 카베르네 소비뇽 블렌드를 만든다.\n\n회원제 판매와 높은 평점으로 스크리밍 이글과 함께 나파 컬트의 최상위를 이룬다. 자매 프로젝트로 본드(BOND)·프로몬토리 등이 있다.",
+      "aliases": [
+        "Harlan Estate",
+        "할란 이스테이트",
+        "할란"
+      ],
+      "regions": [
+        "미국 나파 밸리(오크빌)"
+      ],
+      "flavors": [
+        "Harlan Estate",
+        "The Maiden"
+      ],
+      "meta": {
+        "국가": "미국",
+        "지역": "나파 밸리",
+        "품종": "카베르네 소비뇽"
+      },
+      "image": "producers/harlan_estate.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Harlan_Estate_Label.jpg",
+        "license": "CC0",
+        "author": "Funkysnakefoot"
+      }
+    }
+  }
+}
