@@ -2,7 +2,7 @@
   "_meta": {
     "source": "BoxWine 자체 정리",
     "schema": "v5",
-    "version": 2,
+    "version": 3,
     "categories": [
       "variety",
       "term",
@@ -2009,7 +2009,14 @@
       "flavors": [
         "카베르네 소비뇽",
         "샤르도네"
-      ]
+      ],
+      "image": "regions/shandong.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chateau-Changyu.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Canuckpilot"
+      }
     }
   },
   "flavorCategories": {
