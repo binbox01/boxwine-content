@@ -2,7 +2,7 @@
   "_meta": {
     "source": "BoxWine 자체 정리",
     "schema": "v5",
-    "version": 1,
+    "version": 2,
     "categories": [
       "variety",
       "term",
@@ -1100,7 +1100,8 @@
       "summary": "지롱드강 좌·우안으로 나뉘는 세계에서 가장 영향력 있는 와인 산지.",
       "body": "프랑스 남서부, 지롱드강을 끼고 좌안(메독·그라브)과 우안(생테밀리옹·포므롤)으로 나뉜다. 좌안은 카베르네 소비뇽 주도, 우안은 메를로 주도.\n\n1855년 메독 등급제가 유명하며 5등급으로 5대 1등급 샤토(라피트·라투르·마고·오브리옹·무통)가 분류된다. 블렌딩 전통으로 인해 단일 품종 와인은 거의 없다.",
       "aliases": [
-        "Bordeaux"
+        "Bordeaux",
+        "Saint-Estèphe"
       ],
       "meta": {
         "국가": "프랑스",
@@ -1131,7 +1132,8 @@
       "body": "단일 품종(피노 누아 또는 샤르도네)에 단일 떼루아 중심의 산지. 같은 마을 안에서도 미세한 떼루아(climat) 차이로 가격이 10배 이상 벌어진다.\n\n그랑크뤼·프르미에크뤼·빌라주·레지오날 4단계 등급. 도멘(생산자)의 자존심이 가장 강한 산지로, 같은 이름의 밭이 여러 도멘에 분할 소유되어 있다.",
       "aliases": [
         "Burgundy",
-        "Bourgogne"
+        "Bourgogne",
+        "Bourgogne Aligoté"
       ],
       "meta": {
         "국가": "프랑스",
@@ -1159,7 +1161,9 @@
       "summary": "스파클링 와인의 최고봉. 트라디시오넬(병내 2차 발효) 방식.",
       "body": "AOC 규정상 '샹파뉴' 명칭은 이 지역에서 트라디시오넬(병내 2차 발효) 방식으로 만든 것만 사용 가능.\n\n블랑드블랑(샤르도네 100%)·블랑드누아(피노 누아/뮈니에 100%)·로제 등 스타일 다양. NV 큐베가 메인이며 빈티지 큐베는 최고 작황 해에만 출시된다.",
       "aliases": [
-        "Champagne"
+        "Champagne",
+        "Champagne Grand Cru 'Bouzy'",
+        "Bouzy"
       ],
       "meta": {
         "국가": "프랑스",
@@ -1188,7 +1192,9 @@
       "body": "남북으로 길게 뻗은 산지. 북부 론과 남부 론이 완전히 다른 와인 권역. 북부는 에르미타주·코트로티·콩드리외(비오니에 화이트), 남부는 샤토뇌프뒤파프(13개 품종 허용)·지공다스.\n\n남부가 양적으로 압도적. 따뜻한 기후로 잼류 과실미가 강하다.",
       "aliases": [
         "Rhône",
-        "Rhone"
+        "Rhone",
+        "Côtes-du-Rhône",
+        "Côtes du Rhône"
       ],
       "meta": {
         "국가": "프랑스",
@@ -1247,7 +1253,8 @@
       "body": "이탈리아 중부. 산지오베제 단일/주도 와인이 주력. 키안티·키안티 클라시코·브루넬로 디 몬탈치노(100% 산지오베제, 5년 숙성)·비노 노빌레가 4대 산지.\n\n1970년대 등급 밖에서 카베르네·메를로를 블렌딩한 '슈퍼 투스칸'이 등장(사시카이아·솔라이아·티냐넬로).",
       "aliases": [
         "Toscana",
-        "Tuscany"
+        "Tuscany",
+        "Chianti Classico"
       ],
       "meta": {
         "국가": "이탈리아",
@@ -1278,7 +1285,11 @@
       "body": "이탈리아 북서부. 네비올로의 본거지(바롤로·바르바레스코)와 일상용 바르베라·돌체토. 모스카토 다스티(약발포 디저트 와인)도 유명.\n\n알프스 기슭의 안개로 인해 와인이 깊고 향이 복잡하다. 토양·기후가 부르고뉴와 자주 비교된다.",
       "aliases": [
         "Piemonte",
-        "Piedmont"
+        "Piedmont",
+        "Langhe",
+        "Barolo",
+        "Moscato d'Asti",
+        "Asti"
       ],
       "meta": {
         "국가": "이탈리아",
@@ -1538,6 +1549,466 @@
       },
       "flavors": [
         "산지오베제(브루넬로)"
+      ]
+    },
+    "센트럴 밸리": {
+      "summary": "칠레 와인의 심장부. 마이포·라펠·쿠리코·마울레를 아우르는 대산지.",
+      "body": "안데스와 태평양 사이 종단 계곡으로, 칠레 대부분의 물량이 여기서 나온다. 지중해성 기후에 일교차가 커 카베르네 소비뇽·메를로·카르메네르가 잘 익는다.\n\n북에서 남으로 마이포·라펠(카차포알·콜차구아)·쿠리코·마울레 하위 산지를 포함한다.",
+      "aliases": [
+        "Central Valley"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "지중해성"
+      },
+      "regions": [
+        "마이포 밸리",
+        "라펠 밸리",
+        "쿠리코 밸리",
+        "마울레 밸리"
+      ],
+      "flavors": [
+        "카베르네 소비뇽",
+        "카르메네르",
+        "메를로"
+      ]
+    },
+    "마이포 밸리": {
+      "summary": "산티아고 인근, 칠레 카베르네 소비뇽의 명산지.",
+      "body": "수도 산티아고를 둘러싼 칠레에서 가장 유명한 레드 산지. 안데스 산기슭(알토 마이포)의 카베르네 소비뇽이 구조감과 민트·유칼립투스 뉘앙스로 정평이 나 있다.",
+      "aliases": [
+        "Maipo Valley",
+        "Maipo",
+        "Santiago"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "지중해성"
+      },
+      "flavors": [
+        "카베르네 소비뇽",
+        "카르메네르"
+      ],
+      "image": "regions/maipo_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Concha_Y_Toro.jpg",
+        "license": "Public Domain",
+        "author": "MattStabile01 at English Wikipedia"
+      }
+    },
+    "카사블랑카 밸리": {
+      "summary": "태평양 냉풍을 받는 칠레의 대표 쿨클라이밋 화이트 산지.",
+      "body": "해안에 가까워 아침 안개와 바닷바람으로 서늘하다. 소비뇽 블랑·샤르도네와 서늘한 피노 누아가 산도 높고 상큼하게 나온다.",
+      "aliases": [
+        "Casablanca Valley"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "해안성·서늘"
+      },
+      "flavors": [
+        "소비뇽 블랑",
+        "샤르도네",
+        "피노 누아"
+      ],
+      "image": "regions/casablanca_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Across_the_vines_of_pinot_gris_at_Bodegas_RE,_Casablanca_Valley,_Chile_(25042417768).jpg",
+        "license": "CC BY 2.0",
+        "author": "Winniepix"
+      }
+    },
+    "산 안토니오 밸리": {
+      "summary": "카사블랑카 남쪽의 서늘한 칠레 해안 산지.",
+      "body": "태평양에 더 가까워 카사블랑카보다도 서늘하고 미네랄리티가 강하다. 소비뇽 블랑·샤르도네·피노 누아가 대표이며 레이다 밸리가 유명 하위 구역이다.",
+      "aliases": [
+        "San Antonio Valley"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "해안성·서늘"
+      },
+      "flavors": [
+        "소비뇽 블랑",
+        "피노 누아",
+        "샤르도네"
+      ]
+    },
+    "콜차구아 밸리": {
+      "summary": "라펠 남부의 칠레 프리미엄 레드 산지. 카르메네르·말벡의 본거지.",
+      "body": "따뜻하고 건조해 카르메네르·카베르네 소비뇽·말벡·시라 같은 풀바디 레드가 잘 익는다. 아팔타(Apalta) 언덕이 최상급 하위 구역으로 꼽힌다.",
+      "aliases": [
+        "Colchagua Valley",
+        "Apalta Valley",
+        "Apalta"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "지중해성·온난"
+      },
+      "flavors": [
+        "카르메네르",
+        "카베르네 소비뇽",
+        "말벡"
+      ],
+      "image": "regions/colchagua_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Viña_Casa_Silva_-_Viñedo_Angostura_Vineyard.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Psommaruga"
+      }
+    },
+    "라펠 밸리": {
+      "summary": "카차포알과 콜차구아를 아우르는 칠레 중부 레드 산지.",
+      "body": "센트럴 밸리의 하위 산지로, 북쪽 카차포알(Cachapoal)과 남쪽 콜차구아(Colchagua)로 나뉜다. 카베르네 소비뇽·카르메네르·시라 중심의 레드가 강세다.",
+      "aliases": [
+        "Rapel Valley",
+        "Cachapoal Valley"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "지중해성"
+      },
+      "flavors": [
+        "카베르네 소비뇽",
+        "카르메네르",
+        "시라"
+      ]
+    },
+    "마울레 밸리": {
+      "summary": "칠레 최대 면적의 전통 산지. 올드바인 카리냥의 재발견.",
+      "body": "센트럴 밸리 남단의 오래된 대산지로, 건조 재배(드라이파밍)한 올드바인 카리냥·파이스가 주목받는다. 카베르네 소비뇽·메를로도 폭넓게 재배된다.",
+      "aliases": [
+        "Maule Valley",
+        "Loncomilla Valley"
+      ],
+      "meta": {
+        "국가": "칠레",
+        "기후": "지중해성"
+      },
+      "flavors": [
+        "카리냥",
+        "파이스",
+        "카베르네 소비뇽"
+      ],
+      "image": "regions/maule_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Rio_Maule_aerial2.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Anaximander"
+      }
+    },
+    "캘리포니아": {
+      "summary": "미국 와인의 90%를 생산하는 대표 주(州).",
+      "body": "나파·소노마·센트럴 코스트·센트럴 밸리 등 다양한 기후대를 포함한다. 카베르네 소비뇽·샤르도네·진판델·피노 누아가 대표 품종이며 잘 익은 과실미가 특징이다.",
+      "aliases": [
+        "California"
+      ],
+      "meta": {
+        "국가": "미국",
+        "기후": "지중해성 다양"
+      },
+      "flavors": [
+        "카베르네 소비뇽",
+        "샤르도네",
+        "진판델"
+      ],
+      "image": "regions/california.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Napa_Valley_Silverado_Trail.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Stan Shebs"
+      }
+    },
+    "파소 로블스": {
+      "summary": "캘리포니아 센트럴 코스트의 따뜻한 레드 산지.",
+      "body": "큰 일교차와 따뜻한 낮으로 진판델·카베르네 소비뇽·론 품종(시라·그르나슈)이 농익는다. 파워풀하고 과실 풍부한 스타일이다.",
+      "aliases": [
+        "Paso Robles"
+      ],
+      "meta": {
+        "국가": "미국",
+        "기후": "지중해성·온난"
+      },
+      "flavors": [
+        "진판델",
+        "시라",
+        "카베르네 소비뇽"
+      ],
+      "image": "regions/paso_robles.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Halter-Ranch-600x400.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Winebossguy"
+      }
+    },
+    "산타 바버라 카운티": {
+      "summary": "태평양 냉풍이 드는 캘리포니아의 서늘한 피노·샤르도네 산지.",
+      "body": "동서로 열린 계곡(산타 리타 힐스 등)으로 바닷바람이 깊이 들어와 서늘하다. 피노 누아·샤르도네가 우아하고 산도 좋게 나온다.",
+      "aliases": [
+        "Santa Barbara County"
+      ],
+      "meta": {
+        "국가": "미국",
+        "기후": "해안성·서늘"
+      },
+      "flavors": [
+        "피노 누아",
+        "샤르도네",
+        "시라"
+      ],
+      "image": "regions/santa_barbara_county.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wine_Tasting_133.jpg",
+        "license": "CC BY 2.0",
+        "author": "Flickr user: chrisamichaels"
+      }
+    },
+    "소노마 카운티": {
+      "summary": "나파 서쪽, 다채로운 기후의 캘리포니아 명산지.",
+      "body": "서늘한 러시안 리버 밸리·소노마 코스트(피노 누아·샤르도네)부터 따뜻한 드라이 크릭·알렉산더 밸리(진판델·카베르네)까지 폭넓다.",
+      "aliases": [
+        "Sonoma County"
+      ],
+      "meta": {
+        "국가": "미국",
+        "기후": "지중해성 다양"
+      },
+      "flavors": [
+        "피노 누아",
+        "샤르도네",
+        "진판델"
+      ],
+      "image": "regions/sonoma_county.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vineyard,_Sonoma_County,_California,_1942.jpg",
+        "license": "Public Domain",
+        "author": "Russell Lee"
+      }
+    },
+    "리아스 바이샤스": {
+      "summary": "스페인 북서부 갈리시아의 알바리뇨 화이트 명산지.",
+      "body": "대서양에 면한 서늘·다습한 해양성 기후. 알바리뇨(Albariño)로 짠맛·산도가 살아있는 상큼한 화이트를 만든다. 해산물 페어링의 대명사다.",
+      "aliases": [
+        "Rías Baixas",
+        "Rias Baixas"
+      ],
+      "meta": {
+        "국가": "스페인",
+        "기후": "해양성"
+      },
+      "flavors": [
+        "알바리뇨"
+      ],
+      "image": "regions/rias_baixas.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:DO_Rías_Baixas_location.svg",
+        "license": "CC BY-SA 3.0",
+        "author": "Té y kriptonita"
+      }
+    },
+    "카스티야": {
+      "summary": "스페인 중앙 고원의 광역 산지 표기(Vino de la Tierra).",
+      "body": "카스티야-라만차를 중심으로 한 넓은 내륙 고원. 템프라니요·가르나차·아이렌 등으로 가성비 좋은 와인을 대량 생산한다.",
+      "aliases": [
+        "Castilla",
+        "Vino de la Tierra de Castilla"
+      ],
+      "meta": {
+        "국가": "스페인",
+        "기후": "대륙성·건조"
+      },
+      "flavors": [
+        "템프라니요",
+        "가르나차"
+      ],
+      "image": "regions/castilla.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Castilla_La_Mancha_04_(5558697918).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "michael clarke stuff"
+      }
+    },
+    "비노 데 에스파냐": {
+      "summary": "여러 지역 블렌드를 허용하는 스페인 전역 등급 표기.",
+      "body": "특정 DO에 얽매이지 않고 스페인 각지의 포도를 블렌드할 수 있는 가장 넓은 범주다. 주로 합리적 가격의 데일리 와인에 쓰인다.",
+      "aliases": [
+        "Vino de España"
+      ],
+      "meta": {
+        "국가": "스페인"
+      }
+    },
+    "프리미티보 디 만두리아": {
+      "summary": "이탈리아 풀리아의 프리미티보 DOC. 진하고 달콤한 풀바디 레드.",
+      "body": "장화 뒤꿈치 풀리아(Puglia)의 만두리아 일대. 뜨거운 지중해성 기후에서 프리미티보(진판델과 동일 품종)가 농익어 잼 같은 과실·높은 알코올·부드러운 탄닌을 낸다.",
+      "aliases": [
+        "Primitivo di Manduria"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "지중해성·고온"
+      },
+      "flavors": [
+        "프리미티보"
+      ]
+    },
+    "살렌토": {
+      "summary": "풀리아 남부 살렌토 반도의 광역 산지(IGT).",
+      "body": "삼면이 바다인 반도로 덥고 건조하다. 프리미티보·네그로아마로·말바시아 네라로 진한 남부 레드와 로제를 만든다.",
+      "aliases": [
+        "Salento"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "지중해성·고온"
+      },
+      "flavors": [
+        "프리미티보",
+        "네그로아마로"
+      ]
+    },
+    "콜리 페사레시": {
+      "summary": "이탈리아 마르케 북부 페사로 구릉의 DOC.",
+      "body": "아드리아해에 면한 마르케의 소규모 산지. 산조베제 기반 레드와 화이트를 만든다.",
+      "aliases": [
+        "Colli Pesaresi"
+      ],
+      "meta": {
+        "국가": "이탈리아",
+        "기후": "지중해성"
+      },
+      "flavors": [
+        "산조베제"
+      ],
+      "image": "regions/colli_pesaresi.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Trebbiano-Uva_bianca_per_Vino_Falerio_delle_Marche.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Peter Forster"
+      }
+    },
+    "팔츠": {
+      "summary": "독일 2위 규모 산지. 리슬링과 풍부한 스타일.",
+      "body": "프랑스 알자스로 이어지는 온난·건조한 산지로 독일에서 가장 잘 익는 편이다. 리슬링이 드라이~오프드라이로 폭넓고, 슈페트부르군더(피노 누아)·바이스부르군더도 강세다.",
+      "aliases": [
+        "Pfalz",
+        "Palatinate"
+      ],
+      "meta": {
+        "국가": "독일",
+        "기후": "온난·건조"
+      },
+      "flavors": [
+        "리슬링",
+        "슈페트부르군더"
+      ],
+      "image": "regions/pfalz.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gimmeldingen-weinberg-im-herbst-mit-weinbiet.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Ohummel at German Wikipedia"
+      }
+    },
+    "맥라렌 베일": {
+      "summary": "남호주 애들레이드 남쪽의 시라즈 명산지.",
+      "body": "지중해성 해안 기후로 시라즈·그르나슈가 농익어 풍만하고 스파이시하다. 올드바인 그르나슈와 GSM 블렌드로도 유명하다.",
+      "aliases": [
+        "McLaren Vale"
+      ],
+      "meta": {
+        "국가": "호주",
+        "기후": "지중해성·해안"
+      },
+      "flavors": [
+        "시라즈",
+        "그르나슈"
+      ],
+      "image": "regions/mclaren_vale.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:McLaren_Vale.jpg",
+        "license": "Public Domain",
+        "author": "User:Itsonlyme"
+      }
+    },
+    "패서웨이": {
+      "summary": "남호주 라임스톤 코스트의 서늘한 산지.",
+      "body": "쿠나와라 북쪽의 서늘한 내륙 산지로, 샤르도네를 비롯한 화이트와 카베르네·시라즈가 재배된다.",
+      "aliases": [
+        "Padthaway"
+      ],
+      "meta": {
+        "국가": "호주",
+        "기후": "서늘"
+      },
+      "flavors": [
+        "샤르도네",
+        "시라즈",
+        "카베르네 소비뇽"
+      ]
+    },
+    "사우스 이스턴 오스트레일리아": {
+      "summary": "호주 남동부 여러 주를 아우르는 광역 블렌드 표기.",
+      "body": "남호주·빅토리아·뉴사우스웨일스를 포괄하는 매우 넓은 지리 표시로, 여러 산지 포도를 블렌드한 합리적 가격대 와인에 흔히 쓰인다.",
+      "aliases": [
+        "South Eastern Australia"
+      ],
+      "meta": {
+        "국가": "호주"
+      }
+    },
+    "페이 독": {
+      "summary": "프랑스 랑그도크의 품종 표기 IGP.",
+      "body": "지중해에 면한 남프랑스 랑그도크의 광역 IGP. 카베르네·메를로·샤르도네·시라 등 품종명을 라벨에 표기한 가성비 와인이 많다.",
+      "aliases": [
+        "Pays d'Oc",
+        "Pays d'Oc IGP"
+      ],
+      "meta": {
+        "국가": "프랑스",
+        "기후": "지중해성"
+      },
+      "flavors": [
+        "시라",
+        "메를로",
+        "샤르도네"
+      ],
+      "image": "regions/pays_doc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Languedoc_vineyard.jpg",
+        "license": "CC BY 2.0",
+        "author": "Kafeole"
+      }
+    },
+    "산둥": {
+      "summary": "중국 최대 와인 산지 중 하나. 옌타이가 중심.",
+      "body": "발해만에 면한 반도로 해양성 기후다. 옌타이(Yantai)를 중심으로 중국 와인 산업의 발상지이며 카베르네 소비뇽·샤르도네 등 국제 품종을 재배한다.",
+      "aliases": [
+        "Shandong",
+        "Yantai",
+        "옌타이"
+      ],
+      "meta": {
+        "국가": "중국",
+        "기후": "해양성"
+      },
+      "flavors": [
+        "카베르네 소비뇽",
+        "샤르도네"
       ]
     }
   },
