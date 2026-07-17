@@ -2,7 +2,7 @@
   "_meta": {
     "source": "BoxWine 자체 정리",
     "schema": "v5",
-    "version": 3,
+    "version": 4,
     "categories": [
       "variety",
       "term",
@@ -1093,6 +1093,72 @@
         "그로워 샴페인",
         "샴페인 코드"
       ]
+    },
+    "도멘": {
+      "summary": "부르고뉴에서 자기 밭 포도로 직접 재배·양조·병입하는 생산자.",
+      "body": "'영지·소유지'라는 뜻으로, 보르도의 샤토에 대응하는 부르고뉴식 명칭이다. 소유하거나 임대한 밭에서 나온 포도만으로 만든 와인에 붙는다(포도를 사와 만드는 네고시앙과 대비).\n\n한 도멘이 여러 크뤼에 잘게 나뉜 밭을 조금씩 소유하는 게 부르고뉴의 특징이라, 같은 밭 이름이라도 도멘마다 스타일이 다르다. 라벨의 'Mis en bouteille au domaine'는 도멘 자가 병입 표기.",
+      "aliases": [
+        "Domaine"
+      ],
+      "image": "terms/domaine.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vosne-Romanee.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Olivier Vanpé"
+      }
+    },
+    "샤토": {
+      "summary": "보르도에서 포도밭과 양조장을 갖춘 와인 생산 단위. 문자 그대로는 '성(城)'.",
+      "body": "실제 성이 있든 없든, 특정 밭에서 재배·양조·병입까지 하는 보르도의 생산 단위를 가리킨다(부르고뉴의 도멘에 대응). 페트뤼스처럼 소박한 농가여도 '샤토'를 붙인다.\n\n라벨의 'Mis en bouteille au château'는 샤토 자가 병입을 뜻한다. 1855 등급의 '1등급 샤토'처럼 등급·브랜드 단위로도 쓰인다.",
+      "aliases": [
+        "Château",
+        "Chateau"
+      ],
+      "image": "terms/chateau.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vinbieno_Ch%C3%A2teau_Cos_d%27Estournel_07.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "ThomasPusch"
+      }
+    },
+    "에스테이트": {
+      "summary": "자기 소유·관리 밭의 포도로만 만들어 병입한 와인. 영어권·신세계의 표현.",
+      "body": "도멘·샤토에 해당하는 영어권 개념. 특히 미국에서 'Estate Bottled'는 법적 정의가 있어, 와이너리가 소유하거나 장기 관리하는 같은 지정 산지(AVA) 밭 포도로 100% 만들고 그 부지에서 양조·병입해야 표기할 수 있다.\n\n포도를 사와 만드는 대량 브랜드와 품질·일관성 면에서 구별하려는 신호로 쓰인다. 신세계 라벨에서 자주 보인다.",
+      "aliases": [
+        "Estate",
+        "Estate Bottled"
+      ],
+      "image": "terms/estate.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Signorello_Estate_Winery,_Napa_Valley,_California,_USA_(8055184596).jpg",
+        "license": "CC BY 2.0",
+        "author": "Jim G"
+      }
+    },
+    "네고시앙": {
+      "summary": "포도·포도즙·완성 와인을 사서 자기 이름으로 블렌딩·숙성·병입하는 상인 겸 생산자.",
+      "body": "직접 밭을 크게 소유하지 않고, 재배자에게서 포도나 벌크 와인을 사와 자기 브랜드로 완성·판매한다. 부르고뉴의 루이 자도·조셉 드루앙, 론의 기갈 등이 대표적. 도멘 자가 생산과 대비되는 축이다.\n\n과거엔 품질이 낮다는 편견이 있었으나, 좋은 네고시앙은 밭 계약과 양조 역량으로 도멘급 와인을 낸다. 최근엔 스타 양조가가 소량만 사서 만드는 '마이크로 네고스'도 늘었다.",
+      "aliases": [
+        "Négociant",
+        "Negociant"
+      ]
+    },
+    "메종": {
+      "summary": "'하우스'라는 뜻. 샴페인·부르고뉴 등에서 네고시앙 사업체를 부르는 이름.",
+      "body": "문자 그대로 '집·상사(商社)'. 샴페인에서는 모엣·뵈브 클리코 같은 대형 하우스를 '메종'이라 부르고, 이들은 대개 재배자 포도를 사서 하우스 스타일로 블렌딩하는 네고시앙(NM)이다.\n\n부르고뉴에서도 도멘과 별도로 네고시앙 부문을 운영할 때 '메종 르루아'처럼 붙인다. 즉 밭 중심의 도멘과 달리 브랜드·블렌딩 중심 사업체를 가리키는 말이다.",
+      "aliases": [
+        "Maison"
+      ],
+      "image": "terms/maison.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Avenue_de_Champagne,_%C3%89pernay_(8132669246).jpg",
+        "license": "CC BY 2.0",
+        "author": "Michal Osmenda"
+      }
     }
   },
   "regions": {
