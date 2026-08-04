@@ -2,7 +2,7 @@
   "_meta": {
     "source": "BoxWine 자체 정리",
     "schema": "v5",
-    "version": 4,
+    "version": 6,
     "categories": [
       "variety",
       "term",
@@ -884,21 +884,36 @@
       "body": "입안을 조이는 느낌(껍질이 잡힌 듯한 느낌)으로 인식된다. 강한 와인은 숙성하며 부드러워지므로 어린 탄닌이 강한 와인은 디캔팅하거나 묵혀 마신다.\n\n단백질(고기·치즈)과 잘 결합해 부드럽게 느껴진다. 그래서 카베르네 소비뇽 같은 강한 탄닌 와인은 스테이크와 잘 맞는다.",
       "aliases": [
         "Tannin"
-      ]
+      ],
+      "image": "terms/tannin.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "산도": {
       "summary": "와인의 신맛. 침이 고이게 만드는 성분.",
       "body": "산도가 높으면 음식과의 친화력이 좋아지고 숙성 잠재력도 커진다. 차갑게 마시면 산도가 더 도드라지고 따뜻하면 둔해진다.\n\n산도가 약한 와인은 '플랫(flat)'하다고 표현. 화이트는 산도가 거의 모든 평가의 중심.",
       "aliases": [
         "Acidity"
-      ]
+      ],
+      "image": "terms/acidity.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "바디": {
       "summary": "입안에서 느껴지는 무게감·점도. 알코올과 잔당이 주된 요인.",
       "body": "우유(라이트)·생수(라이트) vs 두유(미디엄) vs 크림(풀)의 비유로 설명한다. 알코올이 높을수록, 잔당이 많을수록, 추출이 깊을수록 풀바디.\n\n와인 색깔과 직접 관련은 없다(짙은 피노 누아도 라이트바디).",
       "aliases": [
         "Body"
-      ]
+      ],
+      "image": "terms/body.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "단맛(드라이/스위트)": {
       "summary": "발효되지 않고 남은 잔당이 만드는 단맛. 드라이=안 달다.",
@@ -907,7 +922,14 @@
         "Dryness",
         "Sweetness",
         "Residual Sugar"
-      ]
+      ],
+      "image": "terms/sweetness.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vineyard_sample_of_2012_Riesling_undergoing_analysis_of_grape_sugars.jpg",
+        "license": "CC BY 2.0",
+        "author": "Mark Smith"
+      }
     },
     "피니시": {
       "summary": "와인을 삼킨 후 입안에 남는 풍미와 그 지속 시간.",
@@ -923,7 +945,14 @@
       "aliases": [
         "Aroma",
         "Bouquet"
-      ]
+      ],
+      "image": "terms/aroma.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wine_Aroma_Wheel.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Aromaster"
+      }
     },
     "디캔팅": {
       "summary": "와인을 디캔터에 옮겨 공기와 접촉시키는 과정.",
@@ -971,14 +1000,26 @@
       "aliases": [
         "Alcohol By Volume",
         "도수"
-      ]
+      ],
+      "image": "terms/abv.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wine_Label_-_Back_of_Bottle_-_Sainte_Magdeleine_-_Cotes_de_Provence.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Wiki.cullin"
+      }
     },
     "미네랄리티": {
       "summary": "'돌·부싯돌·바닷물' 같은 비과일 풍미의 통칭.",
       "body": "공식 학술 용어는 아니지만 와인 묘사에 흔히 쓰인다. 샤블리·산세르·리슬링·알바리뇨 등에서 자주 언급된다.\n\n토양의 미네랄이 직접 와인에 들어간다는 통설은 과학적으로 입증된 바 없으나, 그 풍미가 분명히 인지되는 건 사실이다.",
       "aliases": [
         "Minerality"
-      ]
+      ],
+      "image": "terms/minerality.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "말로락틱 발효": {
       "summary": "알코올 발효 후 일어나는 2차 발효. 사과산을 젖산으로 변환.",
@@ -986,7 +1027,14 @@
       "aliases": [
         "MLF",
         "Malolactic Fermentation"
-      ]
+      ],
+      "image": "terms/malolactic.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Stainless_steel_fermentation_tank.jpg",
+        "license": "CC BY 2.0",
+        "author": "EJ&EZ"
+      }
     },
     "오크 숙성": {
       "summary": "오크통에서 와인을 숙성하는 과정. 부드러움·복합미·향신료 추가.",
@@ -1092,7 +1140,14 @@
         "Grower Champagne",
         "그로워 샴페인",
         "샴페인 코드"
-      ]
+      ],
+      "image": "terms/champagne_code.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Champagne_de_Vignerons_sign.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Tomas er"
+      }
     },
     "도멘": {
       "summary": "부르고뉴에서 자기 밭 포도로 직접 재배·양조·병입하는 생산자.",
@@ -1144,7 +1199,12 @@
       "aliases": [
         "Négociant",
         "Negociant"
-      ]
+      ],
+      "image": "terms/negociant.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "메종": {
       "summary": "'하우스'라는 뜻. 샴페인·부르고뉴 등에서 네고시앙 사업체를 부르는 이름.",
@@ -1538,6 +1598,13 @@
       "meta": {
         "국가": "이탈리아",
         "기후": "온화·아드리아 해 영향"
+      },
+      "image": "regions/veneto.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Valpolicella_vineyards.jpg",
+        "license": "CC BY 2.0",
+        "author": "Aaron Epstein"
       }
     },
     "모젤": {
@@ -1615,7 +1682,14 @@
       },
       "flavors": [
         "산지오베제(브루넬로)"
-      ]
+      ],
+      "image": "regions/montalcino.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Montalcino,_home_of_the_famous_Brunello_wines.jpg",
+        "license": "CC BY 2.0",
+        "author": "Librarygroover"
+      }
     },
     "센트럴 밸리": {
       "summary": "칠레 와인의 심장부. 마이포·라펠·쿠리코·마울레를 아우르는 대산지.",
@@ -1637,7 +1711,14 @@
         "카베르네 소비뇽",
         "카르메네르",
         "메를로"
-      ]
+      ],
+      "image": "regions/central_valley.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chilean_vineyard_in_Andes_foothills.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Beatrice Murch"
+      }
     },
     "마이포 밸리": {
       "summary": "산티아고 인근, 칠레 카베르네 소비뇽의 명산지.",
@@ -1927,7 +2008,14 @@
       },
       "flavors": [
         "프리미티보"
-      ]
+      ],
+      "image": "regions/manduria.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Puglia_Perrini.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "drdcuddy"
+      }
     },
     "살렌토": {
       "summary": "풀리아 남부 살렌토 반도의 광역 산지(IGT).",
@@ -1942,7 +2030,14 @@
       "flavors": [
         "프리미티보",
         "네그로아마로"
-      ]
+      ],
+      "image": "regions/salento.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Negroamaro_Grapes_Growing_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Art Anderson"
+      }
     },
     "콜리 페사레시": {
       "summary": "이탈리아 마르케 북부 페사로 구릉의 DOC.",
@@ -2034,6 +2129,13 @@
       ],
       "meta": {
         "국가": "호주"
+      },
+      "image": "regions/south_eastern_australia.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vignoble_de_la_Riverina.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "VirtualSteve (amélioration qualité Antonov14)"
       }
     },
     "페이 독": {
@@ -2096,7 +2198,12 @@
         "레몬",
         "복숭아",
         "파인애플"
-      ]
+      ],
+      "image": "flavorCategories/fruits.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "꽃·식물": {
       "summary": "장미·제비꽃·풀잎·피망 등. 어린 와인에서 도드라진다.",
@@ -2107,7 +2214,12 @@
         "아카시아",
         "풀",
         "피망"
-      ]
+      ],
+      "image": "flavorCategories/floral.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "향신료": {
       "summary": "후추·정향·계피·바닐라·감초. 품종 자체 또는 오크에서 온다.",
@@ -2119,7 +2231,12 @@
         "계피",
         "바닐라",
         "감초"
-      ]
+      ],
+      "image": "flavorCategories/spice.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "오크·발효 부산물": {
       "summary": "오크에서 오는 바닐라·토스트·연기와 MLF에서 오는 버터.",
@@ -2131,7 +2248,12 @@
         "연기",
         "빵",
         "견과류"
-      ]
+      ],
+      "image": "flavorCategories/oak.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     },
     "흙·미네랄": {
       "summary": "흙·버섯·송로·가죽·부싯돌·바닷물. 떼루아와 숙성의 표현.",
@@ -2143,7 +2265,12 @@
         "가죽",
         "부싯돌",
         "바닷물"
-      ]
+      ],
+      "image": "flavorCategories/earth.jpg",
+      "imageCredit": {
+        "source": "AI 생성",
+        "author": "Google Gemini"
+      }
     }
   },
   "styles": {
@@ -2502,7 +2629,14 @@
       "regions": [
         "부르고뉴",
         "보르도(메독 1등급)"
-      ]
+      ],
+      "image": "classifications/premier_cru.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chablis_Premier_Cru_Butteaux.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "SERVIN"
+      }
     },
     "DOCG": {
       "summary": "이탈리아 최고 등급. 정부 봉인 의무, 약 76개.",
@@ -2537,7 +2671,14 @@
         "발폴리첼라",
         "소아베",
         "돌체토 다스티"
-      ]
+      ],
+      "image": "classifications/doc.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:%2215_-_ITALY_-_DOCG_and_DOC_wine_mark.jpg",
+        "license": "CC BY-SA 3.0 it",
+        "author": "Pava"
+      }
     },
     "IGT": {
       "summary": "이탈리아의 유연한 광역 산지 표시. 슈퍼 투스칸의 발상지.",
@@ -2588,7 +2729,14 @@
         "리오하",
         "리베라 델 두에로",
         "리아스 바이샤스"
-      ]
+      ],
+      "image": "classifications/reserva.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1a_Cumbrero_(DOCa_Rioja).jpg",
+        "license": "CC0",
+        "author": "Zarateman"
+      }
     },
     "그란 레세르바": {
       "summary": "Gran Reserva. 스페인 최상위 숙성 등급 — 레드 최소 5년(오크 2년+병 3년).",
@@ -2600,7 +2748,14 @@
         "리오하 알타",
         "리오하 알라베사",
         "리베라 델 두에로"
-      ]
+      ],
+      "image": "classifications/gran_reserva.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Marques_de_Murrieta_Gran_Reserva_Rioja,_Finca_Ygay.jpg",
+        "license": "CC BY 2.0",
+        "author": "Dominic Lockyer"
+      }
     },
     "AVA": {
       "summary": "American Viticultural Area. 미국의 지리적 산지 구분.",
@@ -2635,7 +2790,14 @@
         "쿠나와라",
         "말보로",
         "센트럴오타고"
-      ]
+      ],
+      "image": "classifications/gi.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wolf_Blass_vineyard_in_Barossa_Valley._SA.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Amanda Slater"
+      }
     }
   },
   "winemaking": {
@@ -3108,6 +3270,13 @@
         "국가": "프랑스",
         "지역": "부르고뉴 코트 드 뉘",
         "품종": "피노 누아"
+      },
+      "image": "producers/leroy.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Richebourg_in_autumn.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Tomas er"
       }
     },
     "도멘 도브네": {
@@ -3130,6 +3299,13 @@
         "국가": "프랑스",
         "지역": "부르고뉴",
         "품종": "샤르도네·피노 누아"
+      },
+      "image": "producers/auvenay.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Saint-Romain_-_Chateau_haut_1.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Christophe.Finot"
       }
     },
     "도멘 조르주 루미에": {
@@ -3153,6 +3329,13 @@
         "국가": "프랑스",
         "지역": "부르고뉴 코트 드 뉘",
         "품종": "피노 누아"
+      },
+      "image": "producers/roumier.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Village_et_vignes_de_Chambolle-Musigny_(C%C3%B4te-d%27Or)_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Jean de l'Auxois"
       }
     },
     "도멘 로베르 그로피에": {
@@ -3320,6 +3503,13 @@
         "국가": "이탈리아",
         "지역": "피에몬테",
         "품종": "네비올로"
+      },
+      "image": "producers/giacomo_conterno.jpg",
+      "imageCredit": {
+        "source": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Nebbiolo_vineyard_in_Barolo.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Lanthanum57"
       }
     },
     "오퍼스 원": {
