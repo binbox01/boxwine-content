@@ -1,3 +1,5 @@
+*한국어 · [English](README.en.md)*
+
 # boxwine-content
 
 와인 테이스팅 노트 앱 **BoxWine**의 학습 콘텐츠 저장소.
